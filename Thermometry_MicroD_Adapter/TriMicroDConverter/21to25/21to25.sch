@@ -1,0 +1,235 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:MicroD_21Pin M211
+U 1 1 610DAE50
+P 6350 2300
+F 0 "M211" V 5650 2300 50  0000 C CNN
+F 1 "MicroD_21Pin" V 5700 2300 50  0000 C CNN
+F 2 "Connector:Omnetics_21Pin" H 6350 2300 50  0001 C CNN
+F 3 "" H 6350 2300 50  0001 C CNN
+	1    6350 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7000 2000 6350 2000
+Wire Wire Line
+	6350 2000 6350 2050
+Wire Wire Line
+	7050 2100 7050 1950
+Wire Wire Line
+	7050 1950 6300 1950
+Wire Wire Line
+	6300 1950 6300 2100
+Wire Wire Line
+	7050 2100 7000 2100
+Wire Wire Line
+	6350 2100 6950 2100
+Wire Wire Line
+	6950 2100 6950 2150
+Wire Wire Line
+	6950 2150 7000 2150
+Wire Wire Line
+	7000 2150 7000 2200
+Wire Wire Line
+	7000 2300 7100 2300
+Wire Wire Line
+	7100 2300 7100 1900
+Wire Wire Line
+	7100 1900 6250 1900
+Wire Wire Line
+	6250 1900 6250 2150
+Wire Wire Line
+	6250 2150 6300 2150
+NoConn ~ 6350 2150
+Wire Wire Line
+	6350 2200 6950 2200
+Wire Wire Line
+	6950 2200 6950 2400
+Wire Wire Line
+	6950 2400 7000 2400
+Wire Wire Line
+	7000 2500 7150 2500
+Wire Wire Line
+	7150 2500 7150 1850
+Wire Wire Line
+	7150 1850 6200 1850
+Wire Wire Line
+	6200 1850 6200 2200
+Wire Wire Line
+	6200 2200 6300 2200
+Wire Wire Line
+	6350 2250 6900 2250
+Wire Wire Line
+	6900 2250 6900 2600
+Wire Wire Line
+	6900 2600 7000 2600
+Wire Wire Line
+	7000 2700 7200 2700
+Wire Wire Line
+	7200 1800 6150 1800
+Wire Wire Line
+	6150 1800 6150 2250
+Wire Wire Line
+	6150 2250 6300 2250
+Wire Wire Line
+	7000 2800 6850 2800
+Wire Wire Line
+	6850 2800 6850 2300
+Wire Wire Line
+	6850 2300 6350 2300
+Wire Wire Line
+	7000 3000 6800 3000
+Wire Wire Line
+	6800 3000 6800 2350
+Wire Wire Line
+	6800 2350 6350 2350
+Wire Wire Line
+	6350 2400 6750 2400
+Wire Wire Line
+	6750 2400 6750 3200
+Wire Wire Line
+	6750 3200 7000 3200
+Wire Wire Line
+	6350 2450 6700 2450
+Wire Wire Line
+	6700 2450 6700 3400
+Wire Wire Line
+	6700 3400 7000 3400
+Wire Wire Line
+	7000 3600 6650 3600
+Wire Wire Line
+	6650 3600 6650 2500
+Wire Wire Line
+	6650 2500 6350 2500
+Wire Wire Line
+	6350 2550 6600 2550
+Wire Wire Line
+	6600 2550 6600 3800
+Wire Wire Line
+	6600 3800 7000 3800
+Wire Wire Line
+	7200 2700 7200 1800
+Wire Wire Line
+	7000 2900 7250 2900
+Wire Wire Line
+	7250 2900 7250 1750
+Wire Wire Line
+	7250 1750 6100 1750
+Wire Wire Line
+	6100 1750 6100 2300
+Wire Wire Line
+	6100 2300 6300 2300
+Wire Wire Line
+	6300 2550 6300 3900
+Wire Wire Line
+	6300 3900 7000 3900
+Wire Wire Line
+	7000 3100 7300 3100
+Wire Wire Line
+	7300 3100 7300 1700
+Wire Wire Line
+	7300 1700 6050 1700
+Wire Wire Line
+	6050 1700 6050 2350
+Wire Wire Line
+	6050 2350 6300 2350
+Wire Wire Line
+	6300 2400 6000 2400
+Wire Wire Line
+	6000 2400 6000 1650
+Wire Wire Line
+	6000 1650 7350 1650
+Wire Wire Line
+	7350 1650 7350 3300
+Wire Wire Line
+	7350 3300 7000 3300
+Wire Wire Line
+	7000 3500 7400 3500
+Wire Wire Line
+	7400 3500 7400 1600
+Wire Wire Line
+	7400 1600 5950 1600
+Wire Wire Line
+	5950 1600 5950 2450
+Wire Wire Line
+	5950 2450 6300 2450
+Wire Wire Line
+	6300 2500 5900 2500
+Wire Wire Line
+	5900 2500 5900 1550
+Wire Wire Line
+	5900 1550 7450 1550
+Wire Wire Line
+	7450 1550 7450 3700
+Wire Wire Line
+	7450 3700 7000 3700
+NoConn ~ 7000 4400
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J1
+U 1 1 61118FCF
+P 6000 4150
+F 0 "J1" V 6004 4230 50  0000 L CNN
+F 1 "Conn_02x02_Odd_Even" V 6095 4230 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_2x02_P1.00mm_Vertical" H 6000 4150 50  0001 C CNN
+F 3 "~" H 6000 4150 50  0001 C CNN
+	1    6000 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:DB25_Male J2
+U 1 1 610D72BE
+P 7300 3200
+F 0 "J2" H 7480 3246 50  0000 L CNN
+F 1 "DB25_Male" H 7480 3155 50  0000 L CNN
+F 2 "Connector:Norcomp-380-025-113L001-microd_NoLeads" H 7300 3200 50  0001 C CNN
+F 3 " ~" H 7300 3200 50  0001 C CNN
+	1    7300 3200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6000 3950 6100 3950
+Wire Wire Line
+	6100 3950 6100 4000
+Wire Wire Line
+	6100 4000 7000 4000
+Wire Wire Line
+	7000 4100 6100 4100
+Wire Wire Line
+	6100 4100 6100 4450
+Wire Wire Line
+	6100 4450 6000 4450
+Wire Wire Line
+	5900 3950 5900 3900
+Wire Wire Line
+	5900 3900 6200 3900
+Wire Wire Line
+	6200 3900 6200 3950
+Wire Wire Line
+	6200 3950 7250 3950
+Wire Wire Line
+	7250 3950 7250 4200
+Wire Wire Line
+	7250 4200 7000 4200
+Wire Wire Line
+	7000 4300 6800 4300
+Wire Wire Line
+	6800 4300 6800 4500
+Wire Wire Line
+	6800 4500 5900 4500
+Wire Wire Line
+	5900 4500 5900 4450
+$EndSCHEMATC
