@@ -156,7 +156,7 @@
     (at -32 0.55 180)
     (tags "380-025-213L001 ")
     (path /610858EB)
-    (fp_text reference J4 (at 0 -2.71) (layer F.SilkS)
+    (fp_text reference J4 (at 0 -2.71) (layer B.SilkS)
       (effects (font (size 1.2 1.2) (thickness 0.15)))
     )
     (fp_text value DB25_Male (at 0.365 -6) (layer F.Fab)
