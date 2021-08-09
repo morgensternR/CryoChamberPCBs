@@ -676,4 +676,65 @@ NoConn ~ 1650 1750
 NoConn ~ 1650 1850
 NoConn ~ 1650 1550
 NoConn ~ 1250 350 
+$Comp
+L Connector_Generic:Conn_01x08 J13
+U 1 1 612A49EB
+P 3300 7100
+F 0 "J13" H 3218 6475 50  0000 C CNN
+F 1 "Conn_01x08" H 3218 6566 50  0000 C CNN
+F 2 "Connector:KF50_Print" H 3300 7100 50  0001 C CNN
+F 3 "~" H 3300 7100 50  0001 C CNN
+	1    3300 7100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 6700 3500 6750
+Connection ~ 3500 6800
+Wire Wire Line
+	3500 6800 3500 6900
+Connection ~ 3500 6900
+Wire Wire Line
+	3500 6900 3500 7000
+Connection ~ 3500 7000
+Wire Wire Line
+	3500 7000 3500 7100
+Connection ~ 3500 7100
+Wire Wire Line
+	3500 7100 3500 7200
+Connection ~ 3500 7200
+Wire Wire Line
+	3500 7200 3500 7300
+Connection ~ 3500 7300
+Wire Wire Line
+	3500 7300 3500 7400
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 61126D1E
+P 3750 6750
+F 0 "#FLG0101" H 3750 6825 50  0001 C CNN
+F 1 "PWR_FLAG" H 3750 6923 50  0000 C CNN
+F 2 "" H 3750 6750 50  0001 C CNN
+F 3 "~" H 3750 6750 50  0001 C CNN
+	1    3750 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 61127867
+P 3650 7400
+F 0 "#PWR0101" H 3650 7150 50  0001 C CNN
+F 1 "GND" H 3655 7227 50  0000 C CNN
+F 2 "" H 3650 7400 50  0001 C CNN
+F 3 "" H 3650 7400 50  0001 C CNN
+	1    3650 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 6750 3500 6750
+Connection ~ 3500 6750
+Wire Wire Line
+	3500 6750 3500 6800
+Wire Wire Line
+	3650 7400 3500 7400
+Connection ~ 3500 7400
 $EndSCHEMATC
