@@ -13,447 +13,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:DB25_Male J12
-U 1 1 6114F24F
-P 10350 2100
-F 0 "J12" H 10268 608 50  0000 C CNN
-F 1 "DB25_Male" H 10268 699 50  0000 C CNN
-F 2 "Connector:Norcomp-380-025-113L001-microd_NoLeads" H 10350 2100 50  0001 C CNN
-F 3 " ~" H 10350 2100 50  0001 C CNN
-	1    10350 2100
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:HDMI_A_1.4 J10
-U 1 1 61162D49
-P 8600 1200
-F 0 "J10" H 9029 1246 50  0000 L CNN
-F 1 "HDMI_A_1.4" H 9029 1155 50  0000 L CNN
-F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 8625 1200 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 8625 1200 50  0001 C CNN
-	1    8600 1200
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:HDMI_A_1.4 J9
-U 1 1 61165AB9
-P 8550 3500
-F 0 "J9" H 8979 3546 50  0000 L CNN
-F 1 "HDMI_A_1.4" H 8979 3455 50  0000 L CNN
-F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 8575 3500 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 8575 3500 50  0001 C CNN
-	1    8550 3500
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	9000 400  10050 400 
-Wire Wire Line
-	10050 400  10050 900 
-Wire Wire Line
-	9000 500  10000 500 
-Wire Wire Line
-	10000 500  10000 1000
-Wire Wire Line
-	10000 1000 10050 1000
-Wire Wire Line
-	9000 600  9950 600 
-Wire Wire Line
-	9950 600  9950 1100
-Wire Wire Line
-	9950 1100 10050 1100
-Wire Wire Line
-	9000 700  9900 700 
-Wire Wire Line
-	9900 700  9900 1200
-Wire Wire Line
-	9900 1200 10050 1200
-Wire Wire Line
-	9000 800  9850 800 
-Wire Wire Line
-	9850 800  9850 1300
-Wire Wire Line
-	9850 1300 10050 1300
-Wire Wire Line
-	9000 900  9800 900 
-Wire Wire Line
-	9800 1400 10050 1400
-Wire Wire Line
-	9800 900  9800 1400
-Wire Wire Line
-	10050 1500 9750 1500
-Wire Wire Line
-	9750 1500 9750 1000
-Wire Wire Line
-	9750 1000 9000 1000
-Wire Wire Line
-	9000 1100 9700 1100
-Wire Wire Line
-	9700 1100 9700 1600
-Wire Wire Line
-	9700 1600 10050 1600
-Wire Wire Line
-	10050 1700 9000 1700
-Wire Wire Line
-	9000 1700 9000 1800
-Wire Wire Line
-	10050 1800 9050 1800
-Wire Wire Line
-	9050 1800 9050 1900
-Wire Wire Line
-	9050 1900 9000 1900
-Wire Wire Line
-	10050 1900 9100 1900
-Wire Wire Line
-	9100 1900 9100 2450
-Wire Wire Line
-	9100 2450 8950 2450
-Wire Wire Line
-	8950 2450 8950 2700
-Wire Wire Line
-	10050 2000 9150 2000
-Wire Wire Line
-	9150 2000 9150 2800
-Wire Wire Line
-	9150 2800 8950 2800
-Wire Wire Line
-	10050 2100 9200 2100
-Wire Wire Line
-	9200 2100 9200 2900
-Wire Wire Line
-	9200 2900 8950 2900
-Wire Wire Line
-	10050 2200 9250 2200
-Wire Wire Line
-	9250 2200 9250 3000
-Wire Wire Line
-	9250 3000 8950 3000
-Wire Wire Line
-	10050 2300 9300 2300
-Wire Wire Line
-	9300 2300 9300 3100
-Wire Wire Line
-	9300 3100 8950 3100
-Wire Wire Line
-	10050 2400 9350 2400
-Wire Wire Line
-	9350 2400 9350 3200
-Wire Wire Line
-	9350 3200 8950 3200
-Wire Wire Line
-	10050 2500 9400 2500
-Wire Wire Line
-	9400 2500 9400 3300
-Wire Wire Line
-	9400 3300 8950 3300
-Wire Wire Line
-	10050 2600 9450 2600
-Wire Wire Line
-	9450 2600 9450 3400
-Wire Wire Line
-	9450 3400 8950 3400
-Wire Wire Line
-	10050 2700 9500 2700
-Wire Wire Line
-	9500 2700 9500 4100
-Wire Wire Line
-	9500 4100 8950 4100
-Wire Wire Line
-	8950 4200 9600 4200
-Wire Wire Line
-	9600 4200 9600 2800
-Wire Wire Line
-	9600 2800 10050 2800
-$Comp
-L Connector:HDMI_A_1.4 J11
-U 1 1 61179225
-P 9350 5350
-F 0 "J11" H 9779 5396 50  0000 L CNN
-F 1 "HDMI_A_1.4" H 9779 5305 50  0000 L CNN
-F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 9375 5350 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 9375 5350 50  0001 C CNN
-	1    9350 5350
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	10050 2900 9750 2900
-Wire Wire Line
-	9750 2900 9750 4550
-Wire Wire Line
-	10050 3000 9800 3000
-Wire Wire Line
-	9800 3000 9800 4650
-Wire Wire Line
-	9800 4650 9750 4650
-Wire Wire Line
-	10050 3100 9850 3100
-Wire Wire Line
-	9850 3100 9850 4750
-Wire Wire Line
-	9850 4750 9750 4750
-Wire Wire Line
-	10050 3200 9900 3200
-Wire Wire Line
-	9900 3200 9900 4850
-Wire Wire Line
-	9900 4850 9750 4850
-NoConn ~ 10050 3300
-NoConn ~ 9350 4250
-NoConn ~ 9750 4950
-NoConn ~ 9750 5050
-NoConn ~ 9750 5150
-NoConn ~ 9750 5250
-NoConn ~ 9750 5450
-NoConn ~ 9750 5650
-NoConn ~ 9750 5750
-NoConn ~ 9750 5950
-NoConn ~ 9750 6050
-NoConn ~ 9550 6450
-NoConn ~ 9450 6450
-NoConn ~ 9350 6450
-NoConn ~ 9250 6450
-NoConn ~ 9150 6450
-NoConn ~ 9050 6450
-NoConn ~ 8950 3600
-NoConn ~ 8950 3800
-NoConn ~ 8950 3900
-NoConn ~ 8750 4600
-NoConn ~ 8650 4600
-NoConn ~ 8550 4600
-NoConn ~ 8450 4600
-NoConn ~ 8350 4600
-NoConn ~ 8250 4600
-NoConn ~ 8800 2300
-NoConn ~ 8550 2400
-NoConn ~ 8700 2300
-NoConn ~ 8600 2300
-NoConn ~ 8500 2300
-NoConn ~ 8400 2300
-NoConn ~ 8300 2300
-NoConn ~ 9000 1500
-NoConn ~ 9000 1600
-NoConn ~ 9000 1300
 NoConn ~ 8600 100 
-$Comp
-L Connector:DB25_Male J8
-U 1 1 6125C5A4
-P 7000 2300
-F 0 "J8" H 6918 808 50  0000 C CNN
-F 1 "DB25_Male" H 6918 899 50  0000 C CNN
-F 2 "Connector:Norcomp-380-025-113L001-microd_NoLeads" H 7000 2300 50  0001 C CNN
-F 3 " ~" H 7000 2300 50  0001 C CNN
-	1    7000 2300
-	1    0    0    1   
-$EndComp
-$Comp
-L Connector:HDMI_A_1.4 J6
-U 1 1 6125C5AA
-P 5250 1400
-F 0 "J6" H 5679 1446 50  0000 L CNN
-F 1 "HDMI_A_1.4" H 5679 1355 50  0000 L CNN
-F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 5275 1400 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 5275 1400 50  0001 C CNN
-	1    5250 1400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:HDMI_A_1.4 J5
-U 1 1 6125C5B0
-P 5200 3700
-F 0 "J5" H 5629 3746 50  0000 L CNN
-F 1 "HDMI_A_1.4" H 5629 3655 50  0000 L CNN
-F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 5225 3700 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 5225 3700 50  0001 C CNN
-	1    5200 3700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	5650 600  6700 600 
-Wire Wire Line
-	6700 600  6700 1100
-Wire Wire Line
-	5650 700  6650 700 
-Wire Wire Line
-	6650 700  6650 1200
-Wire Wire Line
-	6650 1200 6700 1200
-Wire Wire Line
-	5650 800  6600 800 
-Wire Wire Line
-	6600 800  6600 1300
-Wire Wire Line
-	6600 1300 6700 1300
-Wire Wire Line
-	5650 900  6550 900 
-Wire Wire Line
-	6550 900  6550 1400
-Wire Wire Line
-	6550 1400 6700 1400
-Wire Wire Line
-	5650 1000 6500 1000
-Wire Wire Line
-	6500 1000 6500 1500
-Wire Wire Line
-	6500 1500 6700 1500
-Wire Wire Line
-	5650 1100 6450 1100
-Wire Wire Line
-	6450 1600 6700 1600
-Wire Wire Line
-	6450 1100 6450 1600
-Wire Wire Line
-	6700 1700 6400 1700
-Wire Wire Line
-	6400 1700 6400 1200
-Wire Wire Line
-	6400 1200 5650 1200
-Wire Wire Line
-	5650 1300 6350 1300
-Wire Wire Line
-	6350 1300 6350 1800
-Wire Wire Line
-	6350 1800 6700 1800
-Wire Wire Line
-	6700 1900 5650 1900
-Wire Wire Line
-	5650 1900 5650 2000
-Wire Wire Line
-	6700 2000 5700 2000
-Wire Wire Line
-	5700 2000 5700 2100
-Wire Wire Line
-	5700 2100 5650 2100
-Wire Wire Line
-	6700 2100 5750 2100
-Wire Wire Line
-	5750 2100 5750 2650
-Wire Wire Line
-	5750 2650 5600 2650
-Wire Wire Line
-	5600 2650 5600 2900
-Wire Wire Line
-	6700 2200 5800 2200
-Wire Wire Line
-	5800 2200 5800 3000
-Wire Wire Line
-	5800 3000 5600 3000
-Wire Wire Line
-	6700 2300 5850 2300
-Wire Wire Line
-	5850 2300 5850 3100
-Wire Wire Line
-	5850 3100 5600 3100
-Wire Wire Line
-	6700 2400 5900 2400
-Wire Wire Line
-	5900 2400 5900 3200
-Wire Wire Line
-	5900 3200 5600 3200
-Wire Wire Line
-	6700 2500 5950 2500
-Wire Wire Line
-	5950 2500 5950 3300
-Wire Wire Line
-	5950 3300 5600 3300
-Wire Wire Line
-	6700 2600 6000 2600
-Wire Wire Line
-	6000 2600 6000 3400
-Wire Wire Line
-	6000 3400 5600 3400
-Wire Wire Line
-	6700 2700 6050 2700
-Wire Wire Line
-	6050 2700 6050 3500
-Wire Wire Line
-	6050 3500 5600 3500
-Wire Wire Line
-	6700 2800 6100 2800
-Wire Wire Line
-	6100 2800 6100 3600
-Wire Wire Line
-	6100 3600 5600 3600
-Wire Wire Line
-	6700 2900 6150 2900
-Wire Wire Line
-	6150 2900 6150 4300
-Wire Wire Line
-	6150 4300 5600 4300
-Wire Wire Line
-	5600 4400 6250 4400
-Wire Wire Line
-	6250 4400 6250 3000
-Wire Wire Line
-	6250 3000 6700 3000
-$Comp
-L Connector:HDMI_A_1.4 J7
-U 1 1 6125C5F1
-P 6000 5550
-F 0 "J7" H 6429 5596 50  0000 L CNN
-F 1 "HDMI_A_1.4" H 6429 5505 50  0000 L CNN
-F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 6025 5550 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 6025 5550 50  0001 C CNN
-	1    6000 5550
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6700 3100 6400 3100
-Wire Wire Line
-	6400 3100 6400 4750
-Wire Wire Line
-	6700 3200 6450 3200
-Wire Wire Line
-	6450 3200 6450 4850
-Wire Wire Line
-	6450 4850 6400 4850
-Wire Wire Line
-	6700 3300 6500 3300
-Wire Wire Line
-	6500 3300 6500 4950
-Wire Wire Line
-	6500 4950 6400 4950
-Wire Wire Line
-	6700 3400 6550 3400
-Wire Wire Line
-	6550 3400 6550 5050
-Wire Wire Line
-	6550 5050 6400 5050
-NoConn ~ 6700 3500
-NoConn ~ 6000 4450
-NoConn ~ 6400 5150
-NoConn ~ 6400 5250
-NoConn ~ 6400 5350
-NoConn ~ 6400 5450
-NoConn ~ 6400 5650
-NoConn ~ 6400 5850
-NoConn ~ 6400 5950
-NoConn ~ 6400 6150
-NoConn ~ 6400 6250
-NoConn ~ 6200 6650
-NoConn ~ 6100 6650
-NoConn ~ 6000 6650
-NoConn ~ 5900 6650
-NoConn ~ 5800 6650
-NoConn ~ 5700 6650
-NoConn ~ 5600 3800
-NoConn ~ 5600 4000
-NoConn ~ 5600 4100
-NoConn ~ 5400 4800
-NoConn ~ 5300 4800
-NoConn ~ 5200 4800
-NoConn ~ 5100 4800
-NoConn ~ 5000 4800
-NoConn ~ 4900 4800
-NoConn ~ 5450 2500
-NoConn ~ 5200 2600
-NoConn ~ 5350 2500
-NoConn ~ 5250 2500
-NoConn ~ 5150 2500
-NoConn ~ 5050 2500
-NoConn ~ 4950 2500
-NoConn ~ 5650 1700
-NoConn ~ 5650 1800
-NoConn ~ 5650 1500
 NoConn ~ 5250 300 
 $Comp
 L Connector:DB25_Male J4
@@ -475,17 +37,6 @@ F 1 "HDMI_A_1.4" H 1679 1405 50  0000 L CNN
 F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 1275 1450 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 1275 1450 50  0001 C CNN
 	1    1250 1450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:HDMI_A_1.4 J1
-U 1 1 61272D03
-P 1200 3750
-F 0 "J1" H 1629 3796 50  0000 L CNN
-F 1 "HDMI_A_1.4" H 1629 3705 50  0000 L CNN
-F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 1225 3750 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 1225 3750 50  0001 C CNN
-	1    1200 3750
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -534,143 +85,12 @@ Wire Wire Line
 	2350 1350 2350 1850
 Wire Wire Line
 	2350 1850 2700 1850
-Wire Wire Line
-	2700 1950 1650 1950
-Wire Wire Line
-	1650 1950 1650 2050
-Wire Wire Line
-	2700 2050 1700 2050
-Wire Wire Line
-	1700 2050 1700 2150
-Wire Wire Line
-	1700 2150 1650 2150
-Wire Wire Line
-	2700 2150 1750 2150
-Wire Wire Line
-	1750 2150 1750 2700
-Wire Wire Line
-	1750 2700 1600 2700
-Wire Wire Line
-	1600 2700 1600 2950
-Wire Wire Line
-	2700 2250 1800 2250
-Wire Wire Line
-	1800 2250 1800 3050
-Wire Wire Line
-	1800 3050 1600 3050
-Wire Wire Line
-	2700 2350 1850 2350
-Wire Wire Line
-	1850 2350 1850 3150
-Wire Wire Line
-	1850 3150 1600 3150
-Wire Wire Line
-	2700 2450 1900 2450
-Wire Wire Line
-	1900 2450 1900 3250
-Wire Wire Line
-	1900 3250 1600 3250
-Wire Wire Line
-	2700 2550 1950 2550
-Wire Wire Line
-	1950 2550 1950 3350
-Wire Wire Line
-	1950 3350 1600 3350
-Wire Wire Line
-	2700 2650 2000 2650
-Wire Wire Line
-	2000 2650 2000 3450
-Wire Wire Line
-	2000 3450 1600 3450
-Wire Wire Line
-	2700 2750 2050 2750
-Wire Wire Line
-	2050 2750 2050 3550
-Wire Wire Line
-	2050 3550 1600 3550
-Wire Wire Line
-	2700 2850 2100 2850
-Wire Wire Line
-	2100 2850 2100 3650
-Wire Wire Line
-	2100 3650 1600 3650
-Wire Wire Line
-	2700 2950 2150 2950
-Wire Wire Line
-	2150 2950 2150 4350
-Wire Wire Line
-	2150 4350 1600 4350
-Wire Wire Line
-	1600 4450 2250 4450
-Wire Wire Line
-	2250 4450 2250 3050
-Wire Wire Line
-	2250 3050 2700 3050
-$Comp
-L Connector:HDMI_A_1.4 J3
-U 1 1 61272D44
-P 2000 5600
-F 0 "J3" H 2429 5646 50  0000 L CNN
-F 1 "HDMI_A_1.4" H 2429 5555 50  0000 L CNN
-F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 2025 5600 50  0001 C CNN
-F 3 "https://en.wikipedia.org/wiki/HDMI" H 2025 5600 50  0001 C CNN
-	1    2000 5600
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 3150 2400 3150
-Wire Wire Line
-	2400 3150 2400 4800
-Wire Wire Line
-	2700 3250 2450 3250
-Wire Wire Line
-	2450 3250 2450 4900
-Wire Wire Line
-	2450 4900 2400 4900
-Wire Wire Line
-	2700 3350 2500 3350
-Wire Wire Line
-	2500 3350 2500 5000
-Wire Wire Line
-	2500 5000 2400 5000
-Wire Wire Line
-	2700 3450 2550 3450
-Wire Wire Line
-	2550 3450 2550 5100
-Wire Wire Line
-	2550 5100 2400 5100
 NoConn ~ 2700 3550
-NoConn ~ 2000 4500
-NoConn ~ 2400 5200
-NoConn ~ 2400 5300
-NoConn ~ 2400 5400
-NoConn ~ 2400 5500
-NoConn ~ 2400 5700
-NoConn ~ 2400 5900
-NoConn ~ 2400 6000
-NoConn ~ 2400 6200
-NoConn ~ 2400 6300
-NoConn ~ 2200 6700
-NoConn ~ 2100 6700
-NoConn ~ 2000 6700
-NoConn ~ 1900 6700
-NoConn ~ 1800 6700
-NoConn ~ 1700 6700
 NoConn ~ 1600 3850
 NoConn ~ 1600 4050
 NoConn ~ 1600 4150
-NoConn ~ 1400 4850
-NoConn ~ 1300 4850
-NoConn ~ 1200 4850
-NoConn ~ 1100 4850
-NoConn ~ 1000 4850
 NoConn ~ 900  4850
-NoConn ~ 1450 2550
 NoConn ~ 1200 2650
-NoConn ~ 1350 2550
-NoConn ~ 1250 2550
-NoConn ~ 1150 2550
-NoConn ~ 1050 2550
 NoConn ~ 950  2550
 NoConn ~ 1650 1750
 NoConn ~ 1650 1850
@@ -737,4 +157,774 @@ Wire Wire Line
 Wire Wire Line
 	3650 7400 3500 7400
 Connection ~ 3500 7400
+$Comp
+L Connector:HDMI_A_1.4 J1
+U 1 1 61272D03
+P 1200 3750
+F 0 "J1" H 1629 3796 50  0000 L CNN
+F 1 "HDMI_A_1.4" H 1629 3705 50  0000 L CNN
+F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 1225 3750 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 1225 3750 50  0001 C CNN
+	1    1200 3750
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 1650 2050
+NoConn ~ 1650 2150
+NoConn ~ 1600 4350
+NoConn ~ 1600 4450
+Wire Wire Line
+	1600 2950 1600 2250
+Wire Wire Line
+	1600 2250 1700 2250
+Wire Wire Line
+	1700 2250 1700 1950
+Wire Wire Line
+	1700 1950 2700 1950
+Wire Wire Line
+	2700 2050 1750 2050
+Wire Wire Line
+	1750 2050 1750 3050
+Wire Wire Line
+	1750 3050 1600 3050
+Wire Wire Line
+	2700 2150 1800 2150
+Wire Wire Line
+	1800 2150 1800 3150
+Wire Wire Line
+	1800 3150 1600 3150
+Wire Wire Line
+	2700 2250 1850 2250
+Wire Wire Line
+	1850 2250 1850 3250
+Wire Wire Line
+	1850 3250 1600 3250
+Wire Wire Line
+	2700 2350 1900 2350
+Wire Wire Line
+	1900 2350 1900 3350
+Wire Wire Line
+	1900 3350 1600 3350
+Wire Wire Line
+	1600 3450 2000 3450
+Wire Wire Line
+	2000 3450 2000 2450
+Wire Wire Line
+	2000 2450 2700 2450
+Wire Wire Line
+	2700 2550 2050 2550
+Wire Wire Line
+	2050 2550 2050 3550
+Wire Wire Line
+	2050 3550 1600 3550
+Wire Wire Line
+	1600 3650 2100 3650
+Wire Wire Line
+	2100 3650 2100 2650
+Wire Wire Line
+	2100 2650 2700 2650
+$Comp
+L Connector:HDMI_A_1.4 J3
+U 1 1 61272D44
+P 1300 6050
+F 0 "J3" H 1729 6096 50  0000 L CNN
+F 1 "HDMI_A_1.4" H 1729 6005 50  0000 L CNN
+F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 1325 6050 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 1325 6050 50  0001 C CNN
+	1    1300 6050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5250 2150 5250
+Wire Wire Line
+	2150 5250 2150 2750
+Wire Wire Line
+	2150 2750 2700 2750
+Wire Wire Line
+	1700 5350 2200 5350
+Wire Wire Line
+	2200 5350 2200 2850
+Wire Wire Line
+	2200 2850 2700 2850
+Wire Wire Line
+	1700 5450 2250 5450
+Wire Wire Line
+	2250 5450 2250 2950
+Wire Wire Line
+	2250 2950 2700 2950
+Wire Wire Line
+	1700 5550 2300 5550
+Wire Wire Line
+	2300 5550 2300 3050
+Wire Wire Line
+	2300 3050 2700 3050
+Wire Wire Line
+	1700 5650 2350 5650
+Wire Wire Line
+	2350 5650 2350 3150
+Wire Wire Line
+	2350 3150 2700 3150
+Wire Wire Line
+	1700 5750 2400 5750
+Wire Wire Line
+	2400 5750 2400 3250
+Wire Wire Line
+	2400 3250 2700 3250
+Wire Wire Line
+	1700 5850 2450 5850
+Wire Wire Line
+	2450 5850 2450 3350
+Wire Wire Line
+	2450 3350 2700 3350
+Wire Wire Line
+	2700 3450 2500 3450
+Wire Wire Line
+	2500 3450 2500 5950
+Wire Wire Line
+	2500 5950 1700 5950
+NoConn ~ 1700 6150
+NoConn ~ 1700 6350
+NoConn ~ 1700 6450
+NoConn ~ 1700 6650
+NoConn ~ 1700 6750
+NoConn ~ 1000 7150
+$Comp
+L power:GND #PWR0102
+U 1 1 6136A946
+P 1700 4850
+F 0 "#PWR0102" H 1700 4600 50  0001 C CNN
+F 1 "GND" H 1705 4677 50  0000 C CNN
+F 2 "" H 1700 4850 50  0001 C CNN
+F 3 "" H 1700 4850 50  0001 C CNN
+	1    1700 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 6136B421
+P 1450 2550
+F 0 "#PWR0103" H 1450 2300 50  0001 C CNN
+F 1 "GND" H 1455 2377 50  0000 C CNN
+F 2 "" H 1450 2550 50  0001 C CNN
+F 3 "" H 1450 2550 50  0001 C CNN
+	1    1450 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 6136C214
+P 1650 7150
+F 0 "#PWR0104" H 1650 6900 50  0001 C CNN
+F 1 "GND" H 1655 6977 50  0000 C CNN
+F 2 "" H 1650 7150 50  0001 C CNN
+F 3 "" H 1650 7150 50  0001 C CNN
+	1    1650 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 7150 1500 7150
+Connection ~ 1200 7150
+Wire Wire Line
+	1200 7150 1100 7150
+Connection ~ 1300 7150
+Wire Wire Line
+	1300 7150 1200 7150
+Connection ~ 1400 7150
+Wire Wire Line
+	1400 7150 1300 7150
+Connection ~ 1500 7150
+Wire Wire Line
+	1500 7150 1400 7150
+Wire Wire Line
+	1700 4850 1400 4850
+Connection ~ 1100 4850
+Wire Wire Line
+	1100 4850 1000 4850
+Connection ~ 1200 4850
+Wire Wire Line
+	1200 4850 1100 4850
+Connection ~ 1300 4850
+Wire Wire Line
+	1300 4850 1200 4850
+Connection ~ 1400 4850
+Wire Wire Line
+	1400 4850 1300 4850
+Wire Wire Line
+	1050 2550 1150 2550
+Connection ~ 1450 2550
+Connection ~ 1150 2550
+Wire Wire Line
+	1150 2550 1250 2550
+Connection ~ 1250 2550
+Wire Wire Line
+	1250 2550 1350 2550
+Connection ~ 1350 2550
+Wire Wire Line
+	1350 2550 1450 2550
+NoConn ~ 1300 4950
+$Comp
+L Connector:DB25_Male J8
+U 1 1 61403963
+P 6900 2450
+F 0 "J8" H 6818 958 50  0000 C CNN
+F 1 "DB25_Male" H 6818 1049 50  0000 C CNN
+F 2 "Connector:Norcomp-380-025-113L001-microd_NoLeads" H 6900 2450 50  0001 C CNN
+F 3 " ~" H 6900 2450 50  0001 C CNN
+	1    6900 2450
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:HDMI_A_1.4 J6
+U 1 1 61403969
+P 5150 1550
+F 0 "J6" H 5579 1596 50  0000 L CNN
+F 1 "HDMI_A_1.4" H 5579 1505 50  0000 L CNN
+F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 5175 1550 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 5175 1550 50  0001 C CNN
+	1    5150 1550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 750  6600 750 
+Wire Wire Line
+	6600 750  6600 1250
+Wire Wire Line
+	5550 850  6550 850 
+Wire Wire Line
+	6550 850  6550 1350
+Wire Wire Line
+	6550 1350 6600 1350
+Wire Wire Line
+	5550 950  6500 950 
+Wire Wire Line
+	6500 950  6500 1450
+Wire Wire Line
+	6500 1450 6600 1450
+Wire Wire Line
+	5550 1050 6450 1050
+Wire Wire Line
+	6450 1050 6450 1550
+Wire Wire Line
+	6450 1550 6600 1550
+Wire Wire Line
+	5550 1150 6400 1150
+Wire Wire Line
+	6400 1150 6400 1650
+Wire Wire Line
+	6400 1650 6600 1650
+Wire Wire Line
+	5550 1250 6350 1250
+Wire Wire Line
+	6350 1750 6600 1750
+Wire Wire Line
+	6350 1250 6350 1750
+Wire Wire Line
+	6600 1850 6300 1850
+Wire Wire Line
+	6300 1850 6300 1350
+Wire Wire Line
+	6300 1350 5550 1350
+Wire Wire Line
+	5550 1450 6250 1450
+Wire Wire Line
+	6250 1450 6250 1950
+Wire Wire Line
+	6250 1950 6600 1950
+NoConn ~ 6600 3650
+NoConn ~ 5500 3950
+NoConn ~ 5500 4150
+NoConn ~ 5500 4250
+NoConn ~ 4800 4950
+NoConn ~ 5100 2750
+NoConn ~ 4850 2650
+NoConn ~ 5550 1850
+NoConn ~ 5550 1950
+NoConn ~ 5550 1650
+NoConn ~ 5150 450 
+$Comp
+L Connector:HDMI_A_1.4 J5
+U 1 1 61403991
+P 5100 3850
+F 0 "J5" H 5529 3896 50  0000 L CNN
+F 1 "HDMI_A_1.4" H 5529 3805 50  0000 L CNN
+F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 5125 3850 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 5125 3850 50  0001 C CNN
+	1    5100 3850
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 5550 2150
+NoConn ~ 5550 2250
+NoConn ~ 5500 4450
+NoConn ~ 5500 4550
+Wire Wire Line
+	5500 3050 5500 2350
+Wire Wire Line
+	5500 2350 5600 2350
+Wire Wire Line
+	5600 2350 5600 2050
+Wire Wire Line
+	5600 2050 6600 2050
+Wire Wire Line
+	6600 2150 5650 2150
+Wire Wire Line
+	5650 2150 5650 3150
+Wire Wire Line
+	5650 3150 5500 3150
+Wire Wire Line
+	6600 2250 5700 2250
+Wire Wire Line
+	5700 2250 5700 3250
+Wire Wire Line
+	5700 3250 5500 3250
+Wire Wire Line
+	6600 2350 5750 2350
+Wire Wire Line
+	5750 2350 5750 3350
+Wire Wire Line
+	5750 3350 5500 3350
+Wire Wire Line
+	6600 2450 5800 2450
+Wire Wire Line
+	5800 2450 5800 3450
+Wire Wire Line
+	5800 3450 5500 3450
+Wire Wire Line
+	5500 3550 5900 3550
+Wire Wire Line
+	5900 3550 5900 2550
+Wire Wire Line
+	5900 2550 6600 2550
+Wire Wire Line
+	6600 2650 5950 2650
+Wire Wire Line
+	5950 2650 5950 3650
+Wire Wire Line
+	5950 3650 5500 3650
+Wire Wire Line
+	5500 3750 6000 3750
+Wire Wire Line
+	6000 3750 6000 2750
+Wire Wire Line
+	6000 2750 6600 2750
+$Comp
+L Connector:HDMI_A_1.4 J7
+U 1 1 614039B4
+P 5200 6150
+F 0 "J7" H 5629 6196 50  0000 L CNN
+F 1 "HDMI_A_1.4" H 5629 6105 50  0000 L CNN
+F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 5225 6150 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 5225 6150 50  0001 C CNN
+	1    5200 6150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5350 6050 5350
+Wire Wire Line
+	6050 5350 6050 2850
+Wire Wire Line
+	6050 2850 6600 2850
+Wire Wire Line
+	5600 5450 6100 5450
+Wire Wire Line
+	6100 5450 6100 2950
+Wire Wire Line
+	6100 2950 6600 2950
+Wire Wire Line
+	5600 5550 6150 5550
+Wire Wire Line
+	6150 5550 6150 3050
+Wire Wire Line
+	6150 3050 6600 3050
+Wire Wire Line
+	5600 5650 6200 5650
+Wire Wire Line
+	6200 5650 6200 3150
+Wire Wire Line
+	6200 3150 6600 3150
+Wire Wire Line
+	5600 5750 6250 5750
+Wire Wire Line
+	6250 5750 6250 3250
+Wire Wire Line
+	6250 3250 6600 3250
+Wire Wire Line
+	5600 5850 6300 5850
+Wire Wire Line
+	6300 5850 6300 3350
+Wire Wire Line
+	6300 3350 6600 3350
+Wire Wire Line
+	5600 5950 6350 5950
+Wire Wire Line
+	6350 5950 6350 3450
+Wire Wire Line
+	6350 3450 6600 3450
+Wire Wire Line
+	6600 3550 6400 3550
+Wire Wire Line
+	6400 3550 6400 6050
+Wire Wire Line
+	6400 6050 5600 6050
+NoConn ~ 5600 6250
+NoConn ~ 5600 6450
+NoConn ~ 5600 6550
+NoConn ~ 5600 6750
+NoConn ~ 5600 6850
+NoConn ~ 4900 7250
+$Comp
+L power:GND #PWR03
+U 1 1 614039D8
+P 5600 4950
+F 0 "#PWR03" H 5600 4700 50  0001 C CNN
+F 1 "GND" H 5605 4777 50  0000 C CNN
+F 2 "" H 5600 4950 50  0001 C CNN
+F 3 "" H 5600 4950 50  0001 C CNN
+	1    5600 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 614039DE
+P 5350 2650
+F 0 "#PWR01" H 5350 2400 50  0001 C CNN
+F 1 "GND" H 5355 2477 50  0000 C CNN
+F 2 "" H 5350 2650 50  0001 C CNN
+F 3 "" H 5350 2650 50  0001 C CNN
+	1    5350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 614039E4
+P 5550 7250
+F 0 "#PWR02" H 5550 7000 50  0001 C CNN
+F 1 "GND" H 5555 7077 50  0000 C CNN
+F 2 "" H 5550 7250 50  0001 C CNN
+F 3 "" H 5550 7250 50  0001 C CNN
+	1    5550 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 7250 5400 7250
+Connection ~ 5100 7250
+Wire Wire Line
+	5100 7250 5000 7250
+Connection ~ 5200 7250
+Wire Wire Line
+	5200 7250 5100 7250
+Connection ~ 5300 7250
+Wire Wire Line
+	5300 7250 5200 7250
+Connection ~ 5400 7250
+Wire Wire Line
+	5400 7250 5300 7250
+Wire Wire Line
+	5600 4950 5300 4950
+Connection ~ 5000 4950
+Wire Wire Line
+	5000 4950 4900 4950
+Connection ~ 5100 4950
+Wire Wire Line
+	5100 4950 5000 4950
+Connection ~ 5200 4950
+Wire Wire Line
+	5200 4950 5100 4950
+Connection ~ 5300 4950
+Wire Wire Line
+	5300 4950 5200 4950
+Wire Wire Line
+	4950 2650 5050 2650
+Connection ~ 5350 2650
+Connection ~ 5050 2650
+Wire Wire Line
+	5050 2650 5150 2650
+Connection ~ 5150 2650
+Wire Wire Line
+	5150 2650 5250 2650
+Connection ~ 5250 2650
+Wire Wire Line
+	5250 2650 5350 2650
+NoConn ~ 5200 5050
+$Comp
+L Connector:DB25_Male J12
+U 1 1 6141394C
+P 10500 2550
+F 0 "J12" H 10418 1058 50  0000 C CNN
+F 1 "DB25_Male" H 10418 1149 50  0000 C CNN
+F 2 "Connector:Norcomp-380-025-113L001-microd_NoLeads" H 10500 2550 50  0001 C CNN
+F 3 " ~" H 10500 2550 50  0001 C CNN
+	1    10500 2550
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:HDMI_A_1.4 J10
+U 1 1 61413952
+P 8750 1650
+F 0 "J10" H 9179 1696 50  0000 L CNN
+F 1 "HDMI_A_1.4" H 9179 1605 50  0000 L CNN
+F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 8775 1650 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 8775 1650 50  0001 C CNN
+	1    8750 1650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 850  10200 850 
+Wire Wire Line
+	10200 850  10200 1350
+Wire Wire Line
+	9150 950  10150 950 
+Wire Wire Line
+	10150 950  10150 1450
+Wire Wire Line
+	10150 1450 10200 1450
+Wire Wire Line
+	9150 1050 10100 1050
+Wire Wire Line
+	10100 1050 10100 1550
+Wire Wire Line
+	10100 1550 10200 1550
+Wire Wire Line
+	9150 1150 10050 1150
+Wire Wire Line
+	10050 1150 10050 1650
+Wire Wire Line
+	10050 1650 10200 1650
+Wire Wire Line
+	9150 1250 10000 1250
+Wire Wire Line
+	10000 1250 10000 1750
+Wire Wire Line
+	10000 1750 10200 1750
+Wire Wire Line
+	9150 1350 9950 1350
+Wire Wire Line
+	9950 1850 10200 1850
+Wire Wire Line
+	9950 1350 9950 1850
+Wire Wire Line
+	10200 1950 9900 1950
+Wire Wire Line
+	9900 1950 9900 1450
+Wire Wire Line
+	9900 1450 9150 1450
+Wire Wire Line
+	9150 1550 9850 1550
+Wire Wire Line
+	9850 1550 9850 2050
+Wire Wire Line
+	9850 2050 10200 2050
+NoConn ~ 10200 3750
+NoConn ~ 9100 4050
+NoConn ~ 9100 4250
+NoConn ~ 9100 4350
+NoConn ~ 8400 5050
+NoConn ~ 8700 2850
+NoConn ~ 8450 2750
+NoConn ~ 9150 1950
+NoConn ~ 9150 2050
+NoConn ~ 9150 1750
+NoConn ~ 8750 550 
+$Comp
+L Connector:HDMI_A_1.4 J9
+U 1 1 6141397A
+P 8700 3950
+F 0 "J9" H 9129 3996 50  0000 L CNN
+F 1 "HDMI_A_1.4" H 9129 3905 50  0000 L CNN
+F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 8725 3950 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 8725 3950 50  0001 C CNN
+	1    8700 3950
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 9150 2250
+NoConn ~ 9150 2350
+NoConn ~ 9100 4550
+NoConn ~ 9100 4650
+Wire Wire Line
+	9100 3150 9100 2450
+Wire Wire Line
+	9100 2450 9200 2450
+Wire Wire Line
+	9200 2450 9200 2150
+Wire Wire Line
+	9200 2150 10200 2150
+Wire Wire Line
+	10200 2250 9250 2250
+Wire Wire Line
+	9250 2250 9250 3250
+Wire Wire Line
+	9250 3250 9100 3250
+Wire Wire Line
+	10200 2350 9300 2350
+Wire Wire Line
+	9300 2350 9300 3350
+Wire Wire Line
+	9300 3350 9100 3350
+Wire Wire Line
+	10200 2450 9350 2450
+Wire Wire Line
+	9350 2450 9350 3450
+Wire Wire Line
+	9350 3450 9100 3450
+Wire Wire Line
+	10200 2550 9400 2550
+Wire Wire Line
+	9400 2550 9400 3550
+Wire Wire Line
+	9400 3550 9100 3550
+Wire Wire Line
+	9100 3650 9500 3650
+Wire Wire Line
+	9500 3650 9500 2650
+Wire Wire Line
+	9500 2650 10200 2650
+Wire Wire Line
+	10200 2750 9550 2750
+Wire Wire Line
+	9550 2750 9550 3750
+Wire Wire Line
+	9550 3750 9100 3750
+Wire Wire Line
+	9100 3850 9600 3850
+Wire Wire Line
+	9600 3850 9600 2850
+Wire Wire Line
+	9600 2850 10200 2850
+$Comp
+L Connector:HDMI_A_1.4 J11
+U 1 1 6141399D
+P 8800 6250
+F 0 "J11" H 9229 6296 50  0000 L CNN
+F 1 "HDMI_A_1.4" H 9229 6205 50  0000 L CNN
+F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 8825 6250 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 8825 6250 50  0001 C CNN
+	1    8800 6250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9200 5450 9650 5450
+Wire Wire Line
+	9650 5450 9650 2950
+Wire Wire Line
+	9650 2950 10200 2950
+Wire Wire Line
+	9200 5550 9700 5550
+Wire Wire Line
+	9700 5550 9700 3050
+Wire Wire Line
+	9700 3050 10200 3050
+Wire Wire Line
+	9200 5650 9750 5650
+Wire Wire Line
+	9750 5650 9750 3150
+Wire Wire Line
+	9750 3150 10200 3150
+Wire Wire Line
+	9200 5750 9800 5750
+Wire Wire Line
+	9800 5750 9800 3250
+Wire Wire Line
+	9800 3250 10200 3250
+Wire Wire Line
+	9200 5850 9850 5850
+Wire Wire Line
+	9850 5850 9850 3350
+Wire Wire Line
+	9850 3350 10200 3350
+Wire Wire Line
+	9200 5950 9900 5950
+Wire Wire Line
+	9900 5950 9900 3450
+Wire Wire Line
+	9900 3450 10200 3450
+Wire Wire Line
+	9200 6050 9950 6050
+Wire Wire Line
+	9950 6050 9950 3550
+Wire Wire Line
+	9950 3550 10200 3550
+Wire Wire Line
+	10200 3650 10000 3650
+Wire Wire Line
+	10000 3650 10000 6150
+Wire Wire Line
+	10000 6150 9200 6150
+NoConn ~ 9200 6350
+NoConn ~ 9200 6550
+NoConn ~ 9200 6650
+NoConn ~ 9200 6850
+NoConn ~ 9200 6950
+NoConn ~ 8500 7350
+$Comp
+L power:GND #PWR06
+U 1 1 614139C1
+P 9200 5050
+F 0 "#PWR06" H 9200 4800 50  0001 C CNN
+F 1 "GND" H 9205 4877 50  0000 C CNN
+F 2 "" H 9200 5050 50  0001 C CNN
+F 3 "" H 9200 5050 50  0001 C CNN
+	1    9200 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 614139C7
+P 8950 2750
+F 0 "#PWR04" H 8950 2500 50  0001 C CNN
+F 1 "GND" H 8955 2577 50  0000 C CNN
+F 2 "" H 8950 2750 50  0001 C CNN
+F 3 "" H 8950 2750 50  0001 C CNN
+	1    8950 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 614139CD
+P 9150 7350
+F 0 "#PWR05" H 9150 7100 50  0001 C CNN
+F 1 "GND" H 9155 7177 50  0000 C CNN
+F 2 "" H 9150 7350 50  0001 C CNN
+F 3 "" H 9150 7350 50  0001 C CNN
+	1    9150 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 7350 9000 7350
+Connection ~ 8700 7350
+Wire Wire Line
+	8700 7350 8600 7350
+Connection ~ 8800 7350
+Wire Wire Line
+	8800 7350 8700 7350
+Connection ~ 8900 7350
+Wire Wire Line
+	8900 7350 8800 7350
+Connection ~ 9000 7350
+Wire Wire Line
+	9000 7350 8900 7350
+Wire Wire Line
+	9200 5050 8900 5050
+Connection ~ 8600 5050
+Wire Wire Line
+	8600 5050 8500 5050
+Connection ~ 8700 5050
+Wire Wire Line
+	8700 5050 8600 5050
+Connection ~ 8800 5050
+Wire Wire Line
+	8800 5050 8700 5050
+Connection ~ 8900 5050
+Wire Wire Line
+	8900 5050 8800 5050
+Wire Wire Line
+	8550 2750 8650 2750
+Connection ~ 8950 2750
+Connection ~ 8650 2750
+Wire Wire Line
+	8650 2750 8750 2750
+Connection ~ 8750 2750
+Wire Wire Line
+	8750 2750 8850 2750
+Connection ~ 8850 2750
+Wire Wire Line
+	8850 2750 8950 2750
+NoConn ~ 8800 5150
 $EndSCHEMATC
