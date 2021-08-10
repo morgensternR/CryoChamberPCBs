@@ -1,4 +1,4 @@
-19108556910433439
+19113442502998706
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6244,6 +6244,20 @@ connector JWT A3963 pinhead
 2
 2
 Connector
+KF40
+
+
+0
+6
+6
+Connector
+KF50_Print
+
+
+0
+8
+8
+Connector
 MicroD_15Pin
 
 
@@ -6273,6 +6287,13 @@ MicroD_25Pin
 25
 Connector
 MicroD_25Pin_NorComp
+
+
+0
+25
+25
+Connector
+NORCOMP_380-025-113L001
 
 
 0
