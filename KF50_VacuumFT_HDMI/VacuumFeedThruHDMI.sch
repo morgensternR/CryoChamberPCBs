@@ -18,10 +18,10 @@ Wire Wire Line
 NoConn ~ 8600 100 
 NoConn ~ 5250 300 
 $Comp
-L Connector:DB25_Male J4
+L Connector:DB25_Male M2
 U 1 1 61272CF7
 P 3000 2350
-F 0 "J4" H 2918 858 50  0000 C CNN
+F 0 "M2" H 2918 858 50  0000 C CNN
 F 1 "DB25_Male" H 2918 949 50  0000 C CNN
 F 2 "Connector:Norcomp-380-025-113L001-microd_NoLeads" H 3000 2350 50  0001 C CNN
 F 3 " ~" H 3000 2350 50  0001 C CNN
@@ -29,13 +29,14 @@ F 3 " ~" H 3000 2350 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:HDMI_A_1.4 J2
+L Connector:HDMI_A_1.4 J4
 U 1 1 61272CFD
 P 1250 1450
-F 0 "J2" H 1679 1496 50  0000 L CNN
+F 0 "J4" H 1679 1496 50  0000 L CNN
 F 1 "HDMI_A_1.4" H 1679 1405 50  0000 L CNN
 F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 1275 1450 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 1275 1450 50  0001 C CNN
+F 4 "C168715" H 1250 1450 50  0001 C CNN "LCSC"
 	1    1250 1450
 	-1   0    0    -1  
 $EndComp
@@ -158,13 +159,14 @@ Wire Wire Line
 	3650 7400 3500 7400
 Connection ~ 3500 7400
 $Comp
-L Connector:HDMI_A_1.4 J1
+L Connector:HDMI_A_1.4 J5
 U 1 1 61272D03
 P 1200 3750
-F 0 "J1" H 1629 3796 50  0000 L CNN
+F 0 "J5" H 1629 3796 50  0000 L CNN
 F 1 "HDMI_A_1.4" H 1629 3705 50  0000 L CNN
 F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 1225 3750 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 1225 3750 50  0001 C CNN
+F 4 "C168715" H 1200 3750 50  0001 C CNN "LCSC"
 	1    1200 3750
 	-1   0    0    -1  
 $EndComp
@@ -223,13 +225,14 @@ Wire Wire Line
 Wire Wire Line
 	2100 2650 2700 2650
 $Comp
-L Connector:HDMI_A_1.4 J3
+L Connector:HDMI_A_1.4 J6
 U 1 1 61272D44
 P 1300 6050
-F 0 "J3" H 1729 6096 50  0000 L CNN
+F 0 "J6" H 1729 6096 50  0000 L CNN
 F 1 "HDMI_A_1.4" H 1729 6005 50  0000 L CNN
 F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 1325 6050 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 1325 6050 50  0001 C CNN
+F 4 "C168715" H 1300 6050 50  0001 C CNN "LCSC"
 	1    1300 6050
 	-1   0    0    -1  
 $EndComp
@@ -362,10 +365,10 @@ Wire Wire Line
 	1350 2550 1450 2550
 NoConn ~ 1300 4950
 $Comp
-L Connector:DB25_Male J8
+L Connector:DB25_Male M1
 U 1 1 61403963
 P 6900 2450
-F 0 "J8" H 6818 958 50  0000 C CNN
+F 0 "M1" H 6818 958 50  0000 C CNN
 F 1 "DB25_Male" H 6818 1049 50  0000 C CNN
 F 2 "Connector:Norcomp-380-025-113L001-microd_NoLeads" H 6900 2450 50  0001 C CNN
 F 3 " ~" H 6900 2450 50  0001 C CNN
@@ -373,13 +376,14 @@ F 3 " ~" H 6900 2450 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:HDMI_A_1.4 J6
+L Connector:HDMI_A_1.4 J1
 U 1 1 61403969
 P 5150 1550
-F 0 "J6" H 5579 1596 50  0000 L CNN
+F 0 "J1" H 5579 1596 50  0000 L CNN
 F 1 "HDMI_A_1.4" H 5579 1505 50  0000 L CNN
 F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 5175 1550 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 5175 1550 50  0001 C CNN
+F 4 "C168715" H 5150 1550 50  0001 C CNN "LCSC"
 	1    5150 1550
 	-1   0    0    -1  
 $EndComp
@@ -441,13 +445,14 @@ NoConn ~ 5550 1950
 NoConn ~ 5550 1650
 NoConn ~ 5150 450 
 $Comp
-L Connector:HDMI_A_1.4 J5
+L Connector:HDMI_A_1.4 J2
 U 1 1 61403991
 P 5100 3850
-F 0 "J5" H 5529 3896 50  0000 L CNN
+F 0 "J2" H 5529 3896 50  0000 L CNN
 F 1 "HDMI_A_1.4" H 5529 3805 50  0000 L CNN
 F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 5125 3850 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 5125 3850 50  0001 C CNN
+F 4 "C168715" H 5100 3850 50  0001 C CNN "LCSC"
 	1    5100 3850
 	-1   0    0    -1  
 $EndComp
@@ -506,13 +511,14 @@ Wire Wire Line
 Wire Wire Line
 	6000 2750 6600 2750
 $Comp
-L Connector:HDMI_A_1.4 J7
+L Connector:HDMI_A_1.4 J3
 U 1 1 614039B4
 P 5200 6150
-F 0 "J7" H 5629 6196 50  0000 L CNN
+F 0 "J3" H 5629 6196 50  0000 L CNN
 F 1 "HDMI_A_1.4" H 5629 6105 50  0000 L CNN
 F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 5225 6150 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 5225 6150 50  0001 C CNN
+F 4 "C168715" H 5200 6150 50  0001 C CNN "LCSC"
 	1    5200 6150
 	-1   0    0    -1  
 $EndComp
@@ -645,10 +651,10 @@ Wire Wire Line
 	5250 2650 5350 2650
 NoConn ~ 5200 5050
 $Comp
-L Connector:DB25_Male J12
+L Connector:DB25_Male M3
 U 1 1 6141394C
 P 10500 2550
-F 0 "J12" H 10418 1058 50  0000 C CNN
+F 0 "M3" H 10418 1058 50  0000 C CNN
 F 1 "DB25_Male" H 10418 1149 50  0000 C CNN
 F 2 "Connector:Norcomp-380-025-113L001-microd_NoLeads" H 10500 2550 50  0001 C CNN
 F 3 " ~" H 10500 2550 50  0001 C CNN
@@ -656,13 +662,14 @@ F 3 " ~" H 10500 2550 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Connector:HDMI_A_1.4 J10
+L Connector:HDMI_A_1.4 J7
 U 1 1 61413952
 P 8750 1650
-F 0 "J10" H 9179 1696 50  0000 L CNN
+F 0 "J7" H 9179 1696 50  0000 L CNN
 F 1 "HDMI_A_1.4" H 9179 1605 50  0000 L CNN
 F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 8775 1650 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 8775 1650 50  0001 C CNN
+F 4 "C168715" H 8750 1650 50  0001 C CNN "LCSC"
 	1    8750 1650
 	-1   0    0    -1  
 $EndComp
@@ -724,13 +731,14 @@ NoConn ~ 9150 2050
 NoConn ~ 9150 1750
 NoConn ~ 8750 550 
 $Comp
-L Connector:HDMI_A_1.4 J9
+L Connector:HDMI_A_1.4 J8
 U 1 1 6141397A
 P 8700 3950
-F 0 "J9" H 9129 3996 50  0000 L CNN
+F 0 "J8" H 9129 3996 50  0000 L CNN
 F 1 "HDMI_A_1.4" H 9129 3905 50  0000 L CNN
 F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 8725 3950 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 8725 3950 50  0001 C CNN
+F 4 "C168715" H 8700 3950 50  0001 C CNN "LCSC"
 	1    8700 3950
 	-1   0    0    -1  
 $EndComp
@@ -789,13 +797,14 @@ Wire Wire Line
 Wire Wire Line
 	9600 2850 10200 2850
 $Comp
-L Connector:HDMI_A_1.4 J11
+L Connector:HDMI_A_1.4 J9
 U 1 1 6141399D
 P 8800 6250
-F 0 "J11" H 9229 6296 50  0000 L CNN
+F 0 "J9" H 9229 6296 50  0000 L CNN
 F 1 "HDMI_A_1.4" H 9229 6205 50  0000 L CNN
 F 2 "Connector:HDMI-Vertical-Male-JLBPCB" H 8825 6250 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 8825 6250 50  0001 C CNN
+F 4 "C168715" H 8800 6250 50  0001 C CNN "LCSC"
 	1    8800 6250
 	-1   0    0    -1  
 $EndComp
