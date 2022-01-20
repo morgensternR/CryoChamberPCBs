@@ -17,4 +17,4 @@ def HDMIsupport():
 
 result = HDMIsupport()
 show_object(result)
-cq.exporters.export(result, "outputs/clamp.step")
+cq.exporters.export(result, "./HDMI_Support.step")
