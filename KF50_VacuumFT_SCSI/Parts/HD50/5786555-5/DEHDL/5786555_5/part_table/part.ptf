@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '5786555_5'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "TE Connectivity", "5786555-5" (!) = "", "57865555", "Other", "571-5786555-5", "https://www.mouser.com/Search/Refine.aspx?Keyword=571-5786555-5", "", "", "I/O Connectors 50 50SR VERT RCPT FL TOP ACT PN", "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F5786555%7FA2%7Fpdf%7FEnglish%7FENG_CD_5786555_A2.pdf%7F5786555-5"
+END_PART
+
+END.

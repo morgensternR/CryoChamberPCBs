@@ -1,0 +1,4 @@
+Comment,Designator,Footprint,LCSC
+"DB9_1","D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17","Connector:Vertical_DB9_Female","C77831"
+"HDMI_A","J1,J2,J3,J4,J5,J6,J7,J8,J9","Connector:HDMI-SMD_A111926-B-01-R_Female","C720616"
+"MountingHole","MH1,MH2,MH3,MH4","MountingHole:MountingHole_3.5mm_Pad",""

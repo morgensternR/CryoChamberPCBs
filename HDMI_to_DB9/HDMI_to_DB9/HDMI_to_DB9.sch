@@ -14,46 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 0My_Library:A111926-A-05-R CN1
-U 1 1 61E8C9B6
-P 1350 1950
-F 0 "CN1" H 1392 3315 50  0000 C CNN
-F 1 "HDMI- J4" H 1392 3224 50  0000 C CNN
-F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 1350 3050 50  0001 C CNN
-F 3 "" H 1350 2850 50  0001 C CNN
-F 4 "C694736" H 1350 2650 50  0001 C CNN "LCSC"
-F 5 "std:521b09ecc7ff4f41bc817b83e1ef5d5c" H 1350 2650 50  0001 C CNN "uuid"
-	1    1350 1950
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 1950 950 
-NoConn ~ 1950 1250
-NoConn ~ 1950 1550
-NoConn ~ 1950 1850
-NoConn ~ 1950 2750
-NoConn ~ 1950 2850
-NoConn ~ 1950 2950
-NoConn ~ 1950 3050
-NoConn ~ 1950 2550
-NoConn ~ 1950 2350
-NoConn ~ 1950 2250
-NoConn ~ 1950 2450
-NoConn ~ 1950 2050
-NoConn ~ 1950 2650
-NoConn ~ 1950 2150
-$Comp
-L Connector:DB9_Female J1
-U 1 1 61EA2ECA
-P 2800 1250
-F 0 "J1" H 2980 1296 50  0000 L CNN
-F 1 "DB9_1" H 2980 1205 50  0000 L CNN
-F 2 "Connector:DB9_ASSMANN" H 2800 1250 50  0001 C CNN
-F 3 " ~" H 2800 1250 50  0001 C CNN
-F 4 "C305943" H 2800 1250 50  0001 C CNN "LCSC"
-	1    2800 1250
-	1    0    0    -1  
-$EndComp
-$Comp
 L 0My_Library:MountingHole MH1
 U 1 1 61ED4D3C
 P -1350 2050
@@ -117,910 +77,1485 @@ Connection ~ -1550 2450
 Wire Wire Line
 	-1550 2450 -1550 2650
 $Comp
-L Connector:DB9_Female J2
-U 1 1 61F54C32
-P 2800 6500
-F 0 "J2" H 2980 6546 50  0000 L CNN
-F 1 "DB9_3" H 2980 6455 50  0000 L CNN
-F 2 "Connector:DB9_ASSMANN" H 2800 6500 50  0001 C CNN
-F 3 " ~" H 2800 6500 50  0001 C CNN
-F 4 "C305943" H 2800 6500 50  0001 C CNN "LCSC"
-	1    2800 6500
+L Connector:DB9_Female D1
+U 1 1 622E004F
+P 2400 300
+F 0 "D1" H 2580 346 50  0000 L CNN
+F 1 "DB9_1" H 2580 255 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 2400 300 50  0001 C CNN
+F 3 " ~" H 2400 300 50  0001 C CNN
+F 4 "C77831" H 2400 300 50  0001 C CNN "LCSC"
+	1    2400 300 
 	1    0    0    -1  
 $EndComp
-Text Notes 2750 900  0    50   ~ 0
-I+
-Text Notes 2900 950  0    50   ~ 0
-V+
-Text Notes 2750 1050 0    50   ~ 0
-I-
-Text Notes 2900 1150 0    50   ~ 0
+Text Notes 2500 650  0    50   ~ 0
 V-
-Text Notes 2750 1450 0    50   ~ 0
-I+
-Text Notes 2900 1400 0    50   ~ 0
-V+
-Text Notes 2750 1650 0    50   ~ 0
+Text Notes 2350 700  0    50   ~ 0
 I-
-Text Notes 2900 1600 0    50   ~ 0
+Text Notes 2500 450  0    50   ~ 0
+V+
+Text Notes 2350 500  0    50   ~ 0
+I+
+Text Notes 2500 200  0    50   ~ 0
 V-
+Text Notes 2350 100  0    50   ~ 0
+I-
+Text Notes 2500 0    0    50   ~ 0
+V+
+Text Notes 2350 -50  0    50   ~ 0
+I+
 Wire Wire Line
-	2200 850  2200 950 
+	2800 1000 2850 1000
+NoConn ~ 650  2650
+NoConn ~ 850  2650
+NoConn ~ 950  2650
+NoConn ~ 1050 2650
+NoConn ~ 1150 2650
+NoConn ~ 1350 2250
+NoConn ~ 1350 2150
+NoConn ~ 1350 1950
+NoConn ~ 1350 1850
+NoConn ~ 1350 1650
 Wire Wire Line
-	2200 950  2500 950 
+	1350 750  1350 0   
 Wire Wire Line
-	1950 1050 2200 1050
+	1350 0    2100 0   
 Wire Wire Line
-	2200 1050 2200 1150
+	2100 0    2100 -100
+Connection ~ 2100 0   
 Wire Wire Line
-	2200 1150 2500 1150
+	1350 850  1400 850 
 Wire Wire Line
-	1950 850  2200 850 
+	1400 850  1400 100 
 Wire Wire Line
-	2500 850  2250 850 
+	1400 100  2100 100 
 Wire Wire Line
-	2250 850  2250 800 
-Wire Wire Line
-	2250 800  2050 800 
-Wire Wire Line
-	2050 800  2050 1150
-Wire Wire Line
-	2050 1150 1950 1150
-Wire Wire Line
-	1950 1350 2250 1350
-Wire Wire Line
-	2250 1350 2250 1050
-Wire Wire Line
-	2250 1050 2500 1050
-Wire Wire Line
-	1950 1450 2300 1450
-Wire Wire Line
-	2300 1450 2300 1350
-Wire Wire Line
-	2300 1350 2500 1350
-Wire Wire Line
-	1950 1650 2150 1650
-Wire Wire Line
-	2150 1650 2150 1550
-Wire Wire Line
-	2150 1550 2500 1550
-Wire Wire Line
-	2500 1450 2350 1450
-Wire Wire Line
-	2350 1450 2350 1750
-Wire Wire Line
-	1950 1750 2350 1750
-Wire Wire Line
-	2500 1950 2500 1650
-Wire Wire Line
-	1950 1950 2500 1950
+	2100 200  2100 100 
+Connection ~ 2100 100 
 $Comp
-L 0My_Library:A111926-A-05-R CN3
-U 1 1 61FC71C0
-P 1350 4550
-F 0 "CN3" H 1392 5915 50  0000 C CNN
-F 1 "HDMI- J5" H 1392 5824 50  0000 C CNN
-F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 1350 5650 50  0001 C CNN
-F 3 "" H 1350 5450 50  0001 C CNN
-F 4 "C694736" H 1350 5250 50  0001 C CNN "LCSC"
-F 5 "std:521b09ecc7ff4f41bc817b83e1ef5d5c" H 1350 5250 50  0001 C CNN "uuid"
-	1    1350 4550
+L Connector:DB9_Female D2
+U 1 1 622E0079
+P 3100 1200
+F 0 "D2" H 3280 1246 50  0000 L CNN
+F 1 "DB9_1" H 3280 1155 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 3100 1200 50  0001 C CNN
+F 3 " ~" H 3100 1200 50  0001 C CNN
+F 4 "C77831" H 3100 1200 50  0001 C CNN "LCSC"
+	1    3100 1200
+	1    0    0    -1  
+$EndComp
+Text Notes 3200 1550 0    50   ~ 0
+V-
+Text Notes 3050 1600 0    50   ~ 0
+I-
+Text Notes 3200 1350 0    50   ~ 0
+V+
+Text Notes 3050 1400 0    50   ~ 0
+I+
+Text Notes 3200 1100 0    50   ~ 0
+V-
+Text Notes 3050 1000 0    50   ~ 0
+I-
+Text Notes 3200 900  0    50   ~ 0
+V+
+Text Notes 3050 850  0    50   ~ 0
+I+
+Wire Wire Line
+	2800 900  2800 800 
+Connection ~ 2800 900 
+Wire Wire Line
+	2800 1100 2800 1000
+Connection ~ 2800 1000
+Wire Wire Line
+	1350 950  1450 950 
+Wire Wire Line
+	1450 950  1450 900 
+Wire Wire Line
+	1450 900  2800 900 
+Wire Wire Line
+	1350 1000 1350 1050
+Wire Wire Line
+	1350 1000 2800 1000
+$Comp
+L Connector:DB9_Female D3
+U 1 1 622E0091
+P 3200 2250
+F 0 "D3" H 3380 2296 50  0000 L CNN
+F 1 "DB9_1" H 3380 2205 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 3200 2250 50  0001 C CNN
+F 3 " ~" H 3200 2250 50  0001 C CNN
+F 4 "C77831" H 3200 2250 50  0001 C CNN "LCSC"
+	1    3200 2250
+	1    0    0    -1  
+$EndComp
+Text Notes 3300 2600 0    50   ~ 0
+V-
+Text Notes 3150 2650 0    50   ~ 0
+I-
+Text Notes 3300 2400 0    50   ~ 0
+V+
+Text Notes 3150 2450 0    50   ~ 0
+I+
+Text Notes 3300 2150 0    50   ~ 0
+V-
+Text Notes 3150 2050 0    50   ~ 0
+I-
+Text Notes 3300 1950 0    50   ~ 0
+V+
+Text Notes 3150 1900 0    50   ~ 0
+I+
+Wire Wire Line
+	1350 1150 2100 1150
+Wire Wire Line
+	2100 1150 2100 1950
+Wire Wire Line
+	2100 1950 2900 1950
+Wire Wire Line
+	1350 1250 2150 1250
+Wire Wire Line
+	2150 1250 2150 2150
+Wire Wire Line
+	2150 2150 2900 2150
+Wire Wire Line
+	2900 1950 2900 1850
+Connection ~ 2900 1950
+Wire Wire Line
+	2900 2150 2900 2050
+Connection ~ 2900 2150
+Wire Wire Line
+	2900 2350 1950 2350
+Wire Wire Line
+	1950 2350 1950 1350
+Wire Wire Line
+	1950 1350 1350 1350
+Wire Wire Line
+	2900 2450 2900 2350
+Connection ~ 2900 2350
+Wire Wire Line
+	2900 2650 2900 2550
+Wire Wire Line
+	1350 1450 1900 1450
+Wire Wire Line
+	1900 1450 1900 2550
+Wire Wire Line
+	1900 2550 2900 2550
+Connection ~ 2900 2550
+$Comp
+L 0My_Library:HDMI_A J2
+U 1 1 622E00B4
+P 900 4100
+F 0 "J2" H 1330 4146 50  0000 L CNN
+F 1 "HDMI_A" H 1330 4055 50  0000 L CNN
+F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 925 4100 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 925 4100 50  0001 C CNN
+F 4 "C720616" H 900 4100 50  0001 C CNN "LCSC"
+	1    900  4100
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 1950 3550
-NoConn ~ 1950 3850
-NoConn ~ 1950 4150
-NoConn ~ 1950 4450
-NoConn ~ 1950 5350
-NoConn ~ 1950 5450
-NoConn ~ 1950 5550
-NoConn ~ 1950 5650
-NoConn ~ 1950 5150
-NoConn ~ 1950 4950
-NoConn ~ 1950 4850
-NoConn ~ 1950 5050
-NoConn ~ 1950 4650
-NoConn ~ 1950 5250
-NoConn ~ 1950 4750
 $Comp
-L Connector:DB9_Female J3
-U 1 1 61FC71D6
-P 2800 3850
-F 0 "J3" H 2980 3896 50  0000 L CNN
-F 1 "DB9_2" H 2980 3805 50  0000 L CNN
-F 2 "Connector:DB9_ASSMANN" H 2800 3850 50  0001 C CNN
-F 3 " ~" H 2800 3850 50  0001 C CNN
-F 4 "C305943" H 2800 3850 50  0001 C CNN "LCSC"
-	1    2800 3850
+L Connector:DB9_Female D4
+U 1 1 622E00BB
+P 2300 2800
+F 0 "D4" H 2480 2846 50  0000 L CNN
+F 1 "DB9_1" H 2480 2755 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 2300 2800 50  0001 C CNN
+F 3 " ~" H 2300 2800 50  0001 C CNN
+F 4 "C77831" H 2300 2800 50  0001 C CNN "LCSC"
+	1    2300 2800
+	0    -1   -1   0   
+$EndComp
+Text Notes 2650 2700 1    50   ~ 0
+V-
+Text Notes 2700 2850 1    50   ~ 0
+I-
+Text Notes 2450 2700 1    50   ~ 0
+V+
+Text Notes 2500 2850 1    50   ~ 0
+I+
+Text Notes 2200 2700 1    50   ~ 0
+V-
+Text Notes 2100 2850 1    50   ~ 0
+I-
+Text Notes 2000 2700 1    50   ~ 0
+V+
+Text Notes 1950 2850 1    50   ~ 0
+I+
+Wire Wire Line
+	1300 3300 2000 3300
+Wire Wire Line
+	2000 3300 2000 3100
+Wire Wire Line
+	1300 3400 2200 3400
+Wire Wire Line
+	2200 3400 2200 3100
+Wire Wire Line
+	1900 3100 2000 3100
+Connection ~ 2000 3100
+Wire Wire Line
+	2100 3100 2200 3100
+Connection ~ 2200 3100
+Wire Wire Line
+	1300 3500 2400 3500
+Wire Wire Line
+	2400 3500 2400 3100
+Wire Wire Line
+	1300 3600 2600 3600
+Wire Wire Line
+	2600 3600 2600 3100
+Wire Wire Line
+	2400 3100 2500 3100
+Connection ~ 2400 3100
+Wire Wire Line
+	2600 3100 2700 3100
+Connection ~ 2600 3100
+$Comp
+L Connector:DB9_Female D5
+U 1 1 622E00DA
+P 2650 4150
+F 0 "D5" H 2830 4196 50  0000 L CNN
+F 1 "DB9_1" H 2830 4105 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 2650 4150 50  0001 C CNN
+F 3 " ~" H 2650 4150 50  0001 C CNN
+F 4 "C77831" H 2650 4150 50  0001 C CNN "LCSC"
+	1    2650 4150
 	1    0    0    -1  
 $EndComp
-Text Notes 2750 3500 0    50   ~ 0
-I+
-Text Notes 2900 3550 0    50   ~ 0
-V+
-Text Notes 2750 3650 0    50   ~ 0
-I-
-Text Notes 2900 3750 0    50   ~ 0
+Text Notes 2750 4500 0    50   ~ 0
 V-
+Text Notes 2600 4550 0    50   ~ 0
+I-
+Text Notes 2750 4300 0    50   ~ 0
+V+
+Text Notes 2600 4350 0    50   ~ 0
+I+
 Text Notes 2750 4050 0    50   ~ 0
-I+
-Text Notes 2900 4000 0    50   ~ 0
-V+
-Text Notes 2750 4250 0    50   ~ 0
-I-
-Text Notes 2900 4200 0    50   ~ 0
 V-
+Text Notes 2600 3950 0    50   ~ 0
+I-
+Text Notes 2750 3850 0    50   ~ 0
+V+
+Text Notes 2600 3800 0    50   ~ 0
+I+
 Wire Wire Line
-	2200 3450 2200 3550
+	1300 3700 2350 3700
 Wire Wire Line
-	2200 3550 2500 3550
+	2350 3700 2350 3750
 Wire Wire Line
-	1950 3650 2200 3650
+	1300 3800 2150 3800
 Wire Wire Line
-	2200 3650 2200 3750
+	2150 3800 2150 3950
 Wire Wire Line
-	2200 3750 2500 3750
+	2150 3950 2350 3950
 Wire Wire Line
-	1950 3450 2200 3450
+	1300 3900 2000 3900
 Wire Wire Line
-	2500 3450 2250 3450
+	2000 3900 2000 3850
 Wire Wire Line
-	2250 3450 2250 3400
+	2000 3850 2350 3850
 Wire Wire Line
-	2250 3400 2050 3400
+	1300 4000 2350 4000
 Wire Wire Line
-	2050 3400 2050 3750
-Wire Wire Line
-	2050 3750 1950 3750
-Wire Wire Line
-	1950 3950 2250 3950
-Wire Wire Line
-	2250 3950 2250 3650
-Wire Wire Line
-	2250 3650 2500 3650
-Wire Wire Line
-	2500 4050 2350 4050
-Wire Wire Line
-	2500 4550 2500 4250
-Wire Wire Line
-	1950 4350 2200 4350
-Wire Wire Line
-	2200 4350 2200 4000
-Wire Wire Line
-	2200 4000 2500 4000
-Wire Wire Line
-	2500 4000 2500 3950
-Wire Wire Line
-	1950 4550 2250 4550
-Wire Wire Line
-	2250 4550 2250 4150
-Wire Wire Line
-	2250 4150 2500 4150
+	2350 4000 2350 4050
 $Comp
-L 0My_Library:A111926-A-05-R CN2
-U 1 1 61FD2D35
-P 1300 7200
-F 0 "CN2" H 1342 8565 50  0000 C CNN
-F 1 "HDMI- J6" H 1342 8474 50  0000 C CNN
-F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 1300 8300 50  0001 C CNN
-F 3 "" H 1300 8100 50  0001 C CNN
-F 4 "C694736" H 1300 7900 50  0001 C CNN "LCSC"
-F 5 "std:521b09ecc7ff4f41bc817b83e1ef5d5c" H 1300 7900 50  0001 C CNN "uuid"
-	1    1300 7200
+L 0My_Library:HDMI_A J3
+U 1 1 622E00F3
+P 900 6500
+F 0 "J3" H 1330 6546 50  0000 L CNN
+F 1 "HDMI_A" H 1330 6455 50  0000 L CNN
+F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 925 6500 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 925 6500 50  0001 C CNN
+F 4 "C720616" H 900 6500 50  0001 C CNN "LCSC"
+	1    900  6500
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 1900 6200
-NoConn ~ 1900 6500
-NoConn ~ 1900 6800
-NoConn ~ 1900 7100
-NoConn ~ 1900 8000
-NoConn ~ 1900 8100
-NoConn ~ 1900 8200
-NoConn ~ 1900 8300
-NoConn ~ 1900 7800
-NoConn ~ 1900 7600
-NoConn ~ 1900 7500
-NoConn ~ 1900 7700
-NoConn ~ 1900 7300
-NoConn ~ 1900 7900
-NoConn ~ 1900 7400
 Wire Wire Line
-	2500 6700 2150 6700
+	1300 5700 1500 5700
 Wire Wire Line
-	2150 6700 2150 7000
+	1500 5700 1500 4350
 Wire Wire Line
-	2150 7000 1900 7000
+	1500 4350 2350 4350
 Wire Wire Line
-	1900 7200 2500 7200
+	2350 4550 1600 4550
 Wire Wire Line
-	2500 7200 2500 6900
-Text Notes 300  5850 1    39   ~ 0
-When I + and V+ are known from sodlering wire to db9_2 connector and rest to db9_3\n
+	1600 4550 1600 5800
+Wire Wire Line
+	1300 5800 1600 5800
+Wire Wire Line
+	1300 5900 2000 5900
+Wire Wire Line
+	2000 5900 2000 4250
+Wire Wire Line
+	2000 4250 2350 4250
+Wire Wire Line
+	2350 4450 2050 4450
+Wire Wire Line
+	2050 4450 2050 6000
+Wire Wire Line
+	2050 6000 1300 6000
 $Comp
-L 0My_Library:A111926-A-05-R CN4
-U 1 1 61FE49D9
-P 5650 2000
-F 0 "CN4" H 5692 3365 50  0000 C CNN
-F 1 "HDMI- J1" H 5692 3274 50  0000 C CNN
-F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 5650 3100 50  0001 C CNN
-F 3 "" H 5650 2900 50  0001 C CNN
-F 4 "C694736" H 5650 2700 50  0001 C CNN "LCSC"
-F 5 "std:521b09ecc7ff4f41bc817b83e1ef5d5c" H 5650 2700 50  0001 C CNN "uuid"
-	1    5650 2000
-	-1   0    0    -1  
-$EndComp
-NoConn ~ 6250 1000
-NoConn ~ 6250 1300
-NoConn ~ 6250 1600
-NoConn ~ 6250 1900
-NoConn ~ 6250 2800
-NoConn ~ 6250 2900
-NoConn ~ 6250 3000
-NoConn ~ 6250 3100
-NoConn ~ 6250 2600
-NoConn ~ 6250 2400
-NoConn ~ 6250 2300
-NoConn ~ 6250 2500
-NoConn ~ 6250 2100
-NoConn ~ 6250 2700
-NoConn ~ 6250 2200
-$Comp
-L Connector:DB9_Female J4
-U 1 1 61FE49EF
-P 7300 1200
-F 0 "J4" H 7480 1246 50  0000 L CNN
-F 1 "DB9_1" H 7480 1155 50  0000 L CNN
-F 2 "Connector:DB9_ASSMANN" H 7300 1200 50  0001 C CNN
-F 3 " ~" H 7300 1200 50  0001 C CNN
-F 4 "C305943" H 7300 1200 50  0001 C CNN "LCSC"
-	1    7300 1200
+L Connector:DB9_Female D7
+U 1 1 622ED239
+P 6200 450
+F 0 "D7" H 6380 496 50  0000 L CNN
+F 1 "DB9_1" H 6380 405 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 6200 450 50  0001 C CNN
+F 3 " ~" H 6200 450 50  0001 C CNN
+F 4 "C77831" H 6200 450 50  0001 C CNN "LCSC"
+	1    6200 450 
 	1    0    0    -1  
 $EndComp
-Text Notes 7250 850  0    50   ~ 0
-I+
-Text Notes 7400 900  0    50   ~ 0
-V+
-Text Notes 7250 1000 0    50   ~ 0
-I-
-Text Notes 7400 1100 0    50   ~ 0
+Text Notes 6300 800  0    50   ~ 0
 V-
-Text Notes 7250 1400 0    50   ~ 0
-I+
-Text Notes 7400 1350 0    50   ~ 0
-V+
-Text Notes 7250 1600 0    50   ~ 0
+Text Notes 6150 850  0    50   ~ 0
 I-
-Text Notes 7400 1550 0    50   ~ 0
+Text Notes 6300 600  0    50   ~ 0
+V+
+Text Notes 6150 650  0    50   ~ 0
+I+
+Text Notes 6300 350  0    50   ~ 0
 V-
+Text Notes 6150 250  0    50   ~ 0
+I-
+Text Notes 6300 150  0    50   ~ 0
+V+
+Text Notes 6150 100  0    50   ~ 0
+I+
 Wire Wire Line
-	6250 900  7000 900 
-Wire Wire Line
-	6250 1100 7000 1100
-Wire Wire Line
-	6250 1200 6650 1200
-Wire Wire Line
-	6650 1300 7000 1300
-Wire Wire Line
-	6250 1400 6650 1400
-Wire Wire Line
-	6650 1500 7000 1500
-Wire Wire Line
-	6250 1500 6600 1500
-Wire Wire Line
-	6600 1500 6600 800 
-Wire Wire Line
-	6600 800  7000 800 
-Wire Wire Line
-	6650 1400 6650 1500
-Wire Wire Line
-	6650 1200 6650 1300
-Wire Wire Line
-	7000 1000 6700 1000
-Wire Wire Line
-	6700 1000 6700 1700
-Wire Wire Line
-	6700 1700 6250 1700
-Wire Wire Line
-	6250 1800 6750 1800
-Wire Wire Line
-	6750 1800 6750 1400
-Wire Wire Line
-	6750 1400 7000 1400
-Wire Wire Line
-	6250 2000 7000 2000
-Wire Wire Line
-	7000 2000 7000 1600
+	6600 1150 6650 1150
 $Comp
-L 0My_Library:A111926-A-05-R CN5
-U 1 1 62010C2D
-P 5650 4600
-F 0 "CN5" H 5692 5965 50  0000 C CNN
-F 1 "HDMI- J2" H 5692 5874 50  0000 C CNN
-F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 5650 5700 50  0001 C CNN
-F 3 "" H 5650 5500 50  0001 C CNN
-F 4 "C694736" H 5650 5300 50  0001 C CNN "LCSC"
-F 5 "std:521b09ecc7ff4f41bc817b83e1ef5d5c" H 5650 5300 50  0001 C CNN "uuid"
-	1    5650 4600
+L 0My_Library:HDMI_A J4
+U 1 1 622ED249
+P 4750 1700
+F 0 "J4" H 5180 1746 50  0000 L CNN
+F 1 "HDMI_A" H 5180 1655 50  0000 L CNN
+F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 4775 1700 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 4775 1700 50  0001 C CNN
+F 4 "C720616" H 4750 1700 50  0001 C CNN "LCSC"
+	1    4750 1700
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 6250 3600
-NoConn ~ 6250 3900
-NoConn ~ 6250 4200
-NoConn ~ 6250 4500
-NoConn ~ 6250 5400
-NoConn ~ 6250 5500
-NoConn ~ 6250 5600
-NoConn ~ 6250 5700
-NoConn ~ 6250 5200
-NoConn ~ 6250 5000
-NoConn ~ 6250 4900
-NoConn ~ 6250 5100
-NoConn ~ 6250 4700
-NoConn ~ 6250 5300
-NoConn ~ 6250 4800
-Text Notes 7400 4250 0    50   ~ 0
-V-
-Text Notes 7250 4300 0    50   ~ 0
-I-
-Text Notes 7400 4050 0    50   ~ 0
-V+
-Text Notes 7250 4100 0    50   ~ 0
-I+
-Text Notes 7400 3800 0    50   ~ 0
-V-
-Text Notes 7250 3700 0    50   ~ 0
-I-
-Text Notes 7400 3600 0    50   ~ 0
-V+
-Text Notes 7250 3550 0    50   ~ 0
-I+
+NoConn ~ 4450 2800
+NoConn ~ 4650 2800
+NoConn ~ 4750 2800
+NoConn ~ 4850 2800
+NoConn ~ 4950 2800
+NoConn ~ 5150 2400
+NoConn ~ 5150 2300
+NoConn ~ 5150 2100
+NoConn ~ 5150 2000
+NoConn ~ 5150 1800
+Wire Wire Line
+	5150 900  5150 150 
+Wire Wire Line
+	5150 150  5900 150 
+Wire Wire Line
+	5900 150  5900 50  
+Connection ~ 5900 150 
+Wire Wire Line
+	5150 1000 5200 1000
+Wire Wire Line
+	5200 1000 5200 250 
+Wire Wire Line
+	5200 250  5900 250 
+Wire Wire Line
+	5900 350  5900 250 
+Connection ~ 5900 250 
 $Comp
-L Connector:DB9_Female J5
-U 1 1 62010C43
-P 7300 3900
-F 0 "J5" H 7480 3946 50  0000 L CNN
-F 1 "DB9_2" H 7480 3855 50  0000 L CNN
-F 2 "Connector:DB9_ASSMANN" H 7300 3900 50  0001 C CNN
-F 3 " ~" H 7300 3900 50  0001 C CNN
-F 4 "C305943" H 7300 3900 50  0001 C CNN "LCSC"
-	1    7300 3900
+L Connector:DB9_Female D8
+U 1 1 622ED263
+P 6900 1350
+F 0 "D8" H 7080 1396 50  0000 L CNN
+F 1 "DB9_1" H 7080 1305 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 6900 1350 50  0001 C CNN
+F 3 " ~" H 6900 1350 50  0001 C CNN
+F 4 "C77831" H 6900 1350 50  0001 C CNN "LCSC"
+	1    6900 1350
 	1    0    0    -1  
 $EndComp
+Text Notes 7000 1700 0    50   ~ 0
+V-
+Text Notes 6850 1750 0    50   ~ 0
+I-
+Text Notes 7000 1500 0    50   ~ 0
+V+
+Text Notes 6850 1550 0    50   ~ 0
+I+
+Text Notes 7000 1250 0    50   ~ 0
+V-
+Text Notes 6850 1150 0    50   ~ 0
+I-
+Text Notes 7000 1050 0    50   ~ 0
+V+
+Text Notes 6850 1000 0    50   ~ 0
+I+
 Wire Wire Line
-	6250 3500 7000 3500
+	6600 1050 6600 950 
+Connection ~ 6600 1050
 Wire Wire Line
-	6250 3700 7000 3700
+	6600 1250 6600 1150
+Connection ~ 6600 1150
 Wire Wire Line
-	6250 3800 6650 3800
+	5150 1100 5250 1100
 Wire Wire Line
-	6650 3800 6650 4100
+	5250 1100 5250 1050
 Wire Wire Line
-	6650 4100 7000 4100
+	5250 1050 6600 1050
 Wire Wire Line
-	6250 4000 6600 4000
+	5150 1150 5150 1200
 Wire Wire Line
-	6600 4000 6600 4300
-Wire Wire Line
-	6600 4300 7000 4300
-Wire Wire Line
-	6250 4100 6300 4100
-Wire Wire Line
-	6300 4100 6300 3600
-Wire Wire Line
-	6300 3600 7000 3600
-Wire Wire Line
-	6250 4300 6350 4300
-Wire Wire Line
-	6350 4300 6350 3850
-Wire Wire Line
-	6350 3850 6700 3850
-Wire Wire Line
-	6700 3850 6700 3800
-Wire Wire Line
-	6700 3800 7000 3800
-Wire Wire Line
-	6250 4400 6700 4400
-Wire Wire Line
-	6700 4400 6700 4000
-Wire Wire Line
-	6700 4000 7000 4000
-Wire Wire Line
-	7000 4200 6750 4200
-Wire Wire Line
-	6750 4200 6750 4600
-Wire Wire Line
-	6750 4600 6250 4600
+	5150 1150 6600 1150
 $Comp
-L 0My_Library:A111926-A-05-R CN6
-U 1 1 62054369
-P 5650 7200
-F 0 "CN6" H 5692 8565 50  0000 C CNN
-F 1 "HDMI- J3" H 5692 8474 50  0000 C CNN
-F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 5650 8300 50  0001 C CNN
-F 3 "" H 5650 8100 50  0001 C CNN
-F 4 "C694736" H 5650 7900 50  0001 C CNN "LCSC"
-F 5 "std:521b09ecc7ff4f41bc817b83e1ef5d5c" H 5650 7900 50  0001 C CNN "uuid"
-	1    5650 7200
+L Connector:DB9_Female D9
+U 1 1 622ED27B
+P 7000 2400
+F 0 "D9" H 7180 2446 50  0000 L CNN
+F 1 "DB9_1" H 7180 2355 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 7000 2400 50  0001 C CNN
+F 3 " ~" H 7000 2400 50  0001 C CNN
+F 4 "C77831" H 7000 2400 50  0001 C CNN "LCSC"
+	1    7000 2400
+	1    0    0    -1  
+$EndComp
+Text Notes 7100 2750 0    50   ~ 0
+V-
+Text Notes 6950 2800 0    50   ~ 0
+I-
+Text Notes 7100 2550 0    50   ~ 0
+V+
+Text Notes 6950 2600 0    50   ~ 0
+I+
+Text Notes 7100 2300 0    50   ~ 0
+V-
+Text Notes 6950 2200 0    50   ~ 0
+I-
+Text Notes 7100 2100 0    50   ~ 0
+V+
+Text Notes 6950 2050 0    50   ~ 0
+I+
+Wire Wire Line
+	5150 1300 5900 1300
+Wire Wire Line
+	5900 1300 5900 2100
+Wire Wire Line
+	5900 2100 6700 2100
+Wire Wire Line
+	5150 1400 5950 1400
+Wire Wire Line
+	5950 1400 5950 2300
+Wire Wire Line
+	5950 2300 6700 2300
+Wire Wire Line
+	6700 2100 6700 2000
+Connection ~ 6700 2100
+Wire Wire Line
+	6700 2300 6700 2200
+Connection ~ 6700 2300
+Wire Wire Line
+	6700 2500 5750 2500
+Wire Wire Line
+	5750 2500 5750 1500
+Wire Wire Line
+	5750 1500 5150 1500
+Wire Wire Line
+	6700 2600 6700 2500
+Connection ~ 6700 2500
+Wire Wire Line
+	6700 2800 6700 2700
+Wire Wire Line
+	5150 1600 5700 1600
+Wire Wire Line
+	5700 1600 5700 2700
+Wire Wire Line
+	5700 2700 6700 2700
+Connection ~ 6700 2700
+$Comp
+L 0My_Library:HDMI_A J5
+U 1 1 622ED29E
+P 4700 4250
+F 0 "J5" H 5130 4296 50  0000 L CNN
+F 1 "HDMI_A" H 5130 4205 50  0000 L CNN
+F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 4725 4250 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 4725 4250 50  0001 C CNN
+F 4 "C720616" H 4700 4250 50  0001 C CNN "LCSC"
+	1    4700 4250
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 6250 6200
-NoConn ~ 6250 6500
-NoConn ~ 6250 6800
-NoConn ~ 6250 7100
-NoConn ~ 6250 8000
-NoConn ~ 6250 8100
-NoConn ~ 6250 8200
-NoConn ~ 6250 8300
-NoConn ~ 6250 7800
-NoConn ~ 6250 7600
-NoConn ~ 6250 7500
-NoConn ~ 6250 7700
-NoConn ~ 6250 7300
-NoConn ~ 6250 7900
-NoConn ~ 6250 7400
-Text Notes 7400 6850 0    50   ~ 0
-V-
-Text Notes 7250 6900 0    50   ~ 0
-I-
-Text Notes 7400 6650 0    50   ~ 0
-V+
-Text Notes 7250 6700 0    50   ~ 0
-I+
-Text Notes 7400 6400 0    50   ~ 0
-V-
-Text Notes 7250 6300 0    50   ~ 0
-I-
-Text Notes 7400 6200 0    50   ~ 0
-V+
-Text Notes 7250 6150 0    50   ~ 0
-I+
 $Comp
-L Connector:DB9_Female J6
-U 1 1 62054387
-P 7300 6500
-F 0 "J6" H 7480 6546 50  0000 L CNN
-F 1 "DB9_3" H 7480 6455 50  0000 L CNN
-F 2 "Connector:DB9_ASSMANN" H 7300 6500 50  0001 C CNN
-F 3 " ~" H 7300 6500 50  0001 C CNN
-F 4 "C305943" H 7300 6500 50  0001 C CNN "LCSC"
-	1    7300 6500
+L Connector:DB9_Female D10
+U 1 1 622ED2A5
+P 6100 2950
+F 0 "D10" H 6280 2996 50  0000 L CNN
+F 1 "DB9_1" H 6280 2905 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 6100 2950 50  0001 C CNN
+F 3 " ~" H 6100 2950 50  0001 C CNN
+F 4 "C77831" H 6100 2950 50  0001 C CNN "LCSC"
+	1    6100 2950
+	0    -1   -1   0   
+$EndComp
+Text Notes 6450 2850 1    50   ~ 0
+V-
+Text Notes 6500 3000 1    50   ~ 0
+I-
+Text Notes 6250 2850 1    50   ~ 0
+V+
+Text Notes 6300 3000 1    50   ~ 0
+I+
+Text Notes 6000 2850 1    50   ~ 0
+V-
+Text Notes 5900 3000 1    50   ~ 0
+I-
+Text Notes 5800 2850 1    50   ~ 0
+V+
+Text Notes 5750 3000 1    50   ~ 0
+I+
+Wire Wire Line
+	5100 3450 5800 3450
+Wire Wire Line
+	5800 3450 5800 3250
+Wire Wire Line
+	5100 3550 6000 3550
+Wire Wire Line
+	6000 3550 6000 3250
+Wire Wire Line
+	5700 3250 5800 3250
+Connection ~ 5800 3250
+Wire Wire Line
+	5900 3250 6000 3250
+Connection ~ 6000 3250
+Wire Wire Line
+	5100 3650 6200 3650
+Wire Wire Line
+	6200 3650 6200 3250
+Wire Wire Line
+	5100 3750 6400 3750
+Wire Wire Line
+	6400 3750 6400 3250
+Wire Wire Line
+	6200 3250 6300 3250
+Connection ~ 6200 3250
+Wire Wire Line
+	6400 3250 6500 3250
+Connection ~ 6400 3250
+$Comp
+L Connector:DB9_Female D11
+U 1 1 622ED2C4
+P 6450 4300
+F 0 "D11" H 6630 4346 50  0000 L CNN
+F 1 "DB9_1" H 6630 4255 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 6450 4300 50  0001 C CNN
+F 3 " ~" H 6450 4300 50  0001 C CNN
+F 4 "C77831" H 6450 4300 50  0001 C CNN "LCSC"
+	1    6450 4300
 	1    0    0    -1  
 $EndComp
+Text Notes 6550 4650 0    50   ~ 0
+V-
+Text Notes 6400 4700 0    50   ~ 0
+I-
+Text Notes 6550 4450 0    50   ~ 0
+V+
+Text Notes 6400 4500 0    50   ~ 0
+I+
+Text Notes 6550 4200 0    50   ~ 0
+V-
+Text Notes 6400 4100 0    50   ~ 0
+I-
+Text Notes 6550 4000 0    50   ~ 0
+V+
+Text Notes 6400 3950 0    50   ~ 0
+I+
 Wire Wire Line
-	6250 6100 7000 6100
+	5100 3850 6150 3850
 Wire Wire Line
-	6250 6300 7000 6300
+	6150 3850 6150 3900
 Wire Wire Line
-	6250 6400 6650 6400
+	5100 3950 5950 3950
 Wire Wire Line
-	6650 6400 6650 6700
+	5950 3950 5950 4100
 Wire Wire Line
-	6650 6700 7000 6700
+	5950 4100 6150 4100
 Wire Wire Line
-	6250 6600 6600 6600
+	5100 4050 5800 4050
 Wire Wire Line
-	6600 6600 6600 6900
+	5800 4050 5800 4000
 Wire Wire Line
-	6600 6900 7000 6900
+	5800 4000 6150 4000
 Wire Wire Line
-	6250 6700 6300 6700
+	5100 4150 6150 4150
 Wire Wire Line
-	6300 6700 6300 6200
-Wire Wire Line
-	6300 6200 7000 6200
-Wire Wire Line
-	6250 6900 6350 6900
-Wire Wire Line
-	6350 6900 6350 6450
-Wire Wire Line
-	6350 6450 6700 6450
-Wire Wire Line
-	6700 6450 6700 6400
-Wire Wire Line
-	6700 6400 7000 6400
-Wire Wire Line
-	6250 7000 6700 7000
-Wire Wire Line
-	6700 7000 6700 6600
-Wire Wire Line
-	6700 6600 7000 6600
-Wire Wire Line
-	7000 6800 6750 6800
-Wire Wire Line
-	6750 6800 6750 7200
-Wire Wire Line
-	6750 7200 6250 7200
+	6150 4150 6150 4200
 $Comp
-L 0My_Library:A111926-A-05-R CN7
-U 1 1 62082466
-P 9300 0
-F 0 "CN7" H 9342 1365 50  0000 C CNN
-F 1 "HDMI- J7" H 9342 1274 50  0000 C CNN
-F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 9300 1100 50  0001 C CNN
-F 3 "" H 9300 900 50  0001 C CNN
-F 4 "C694736" H 9300 700 50  0001 C CNN "LCSC"
-F 5 "std:521b09ecc7ff4f41bc817b83e1ef5d5c" H 9300 700 50  0001 C CNN "uuid"
-	1    9300 0   
+L 0My_Library:HDMI_A J6
+U 1 1 622ED2DD
+P 4700 6650
+F 0 "J6" H 5130 6696 50  0000 L CNN
+F 1 "HDMI_A" H 5130 6605 50  0000 L CNN
+F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 4725 6650 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 4725 6650 50  0001 C CNN
+F 4 "C720616" H 4700 6650 50  0001 C CNN "LCSC"
+	1    4700 6650
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 9900 -1000
-NoConn ~ 9900 -700
-NoConn ~ 9900 -400
-NoConn ~ 9900 -100
-NoConn ~ 9900 800 
-NoConn ~ 9900 900 
-NoConn ~ 9900 1000
-NoConn ~ 9900 1100
-NoConn ~ 9900 600 
-NoConn ~ 9900 400 
-NoConn ~ 9900 300 
-NoConn ~ 9900 500 
-NoConn ~ 9900 100 
-NoConn ~ 9900 700 
-NoConn ~ 9900 200 
+Wire Wire Line
+	5100 5850 5300 5850
+Wire Wire Line
+	5300 5850 5300 4500
+Wire Wire Line
+	5300 4500 6150 4500
+Wire Wire Line
+	6150 4700 5400 4700
+Wire Wire Line
+	5400 4700 5400 5950
+Wire Wire Line
+	5100 5950 5400 5950
+Wire Wire Line
+	5100 6050 5800 6050
+Wire Wire Line
+	5800 6050 5800 4400
+Wire Wire Line
+	5800 4400 6150 4400
+Wire Wire Line
+	6150 4600 5850 4600
+Wire Wire Line
+	5850 4600 5850 6150
+Wire Wire Line
+	5850 6150 5100 6150
 $Comp
-L Connector:DB9_Female J7
-U 1 1 6208247C
-P 10950 -800
-F 0 "J7" H 11130 -754 50  0000 L CNN
-F 1 "DB9_1" H 11130 -845 50  0000 L CNN
-F 2 "Connector:DB9_ASSMANN" H 10950 -800 50  0001 C CNN
-F 3 " ~" H 10950 -800 50  0001 C CNN
-F 4 "C305943" H 10950 -800 50  0001 C CNN "LCSC"
-	1    10950 -800
-	1    0    0    -1  
-$EndComp
-Text Notes 10900 -1150 0    50   ~ 0
-I+
-Text Notes 11050 -1100 0    50   ~ 0
-V+
-Text Notes 10900 -1000 0    50   ~ 0
-I-
-Text Notes 11050 -900 0    50   ~ 0
-V-
-Text Notes 10900 -600 0    50   ~ 0
-I+
-Text Notes 11050 -650 0    50   ~ 0
-V+
-Text Notes 10900 -400 0    50   ~ 0
-I-
-Text Notes 11050 -450 0    50   ~ 0
-V-
-Wire Wire Line
-	9900 -1100 10650 -1100
-Wire Wire Line
-	9900 -900 10650 -900
-Wire Wire Line
-	9900 -800 10300 -800
-Wire Wire Line
-	10300 -700 10650 -700
-Wire Wire Line
-	9900 -600 10300 -600
-Wire Wire Line
-	10300 -500 10650 -500
-Wire Wire Line
-	9900 -500 10250 -500
-Wire Wire Line
-	10250 -500 10250 -1200
-Wire Wire Line
-	10250 -1200 10650 -1200
-Wire Wire Line
-	10300 -600 10300 -500
-Wire Wire Line
-	10300 -800 10300 -700
-Wire Wire Line
-	10650 -1000 10350 -1000
-Wire Wire Line
-	10350 -1000 10350 -300
-Wire Wire Line
-	10350 -300 9900 -300
-Wire Wire Line
-	9900 -200 10400 -200
-Wire Wire Line
-	10400 -200 10400 -600
-Wire Wire Line
-	10400 -600 10650 -600
-Wire Wire Line
-	9900 0    10650 0   
-Wire Wire Line
-	10650 0    10650 -400
-$Comp
-L 0My_Library:A111926-A-05-R CN8
-U 1 1 6208249F
-P 9300 2600
-F 0 "CN8" H 9342 3965 50  0000 C CNN
-F 1 "HDMI- J8" H 9342 3874 50  0000 C CNN
-F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 9300 3700 50  0001 C CNN
-F 3 "" H 9300 3500 50  0001 C CNN
-F 4 "C694736" H 9300 3300 50  0001 C CNN "LCSC"
-F 5 "std:521b09ecc7ff4f41bc817b83e1ef5d5c" H 9300 3300 50  0001 C CNN "uuid"
-	1    9300 2600
+L 0My_Library:HDMI_A J1
+U 1 1 622E005F
+P 950 1550
+F 0 "J1" H 1380 1596 50  0000 L CNN
+F 1 "HDMI_A" H 1380 1505 50  0000 L CNN
+F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 975 1550 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 975 1550 50  0001 C CNN
+F 4 "C720616" H 950 1550 50  0001 C CNN "LCSC"
+	1    950  1550
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 9900 1600
-NoConn ~ 9900 1900
-NoConn ~ 9900 2200
-NoConn ~ 9900 2500
-NoConn ~ 9900 3400
-NoConn ~ 9900 3500
-NoConn ~ 9900 3600
-NoConn ~ 9900 3700
-NoConn ~ 9900 3200
-NoConn ~ 9900 3000
-NoConn ~ 9900 2900
-NoConn ~ 9900 3100
-NoConn ~ 9900 2700
-NoConn ~ 9900 3300
-NoConn ~ 9900 2800
-Text Notes 11050 2250 0    50   ~ 0
-V-
-Text Notes 10900 2300 0    50   ~ 0
-I-
-Text Notes 11050 2050 0    50   ~ 0
-V+
-Text Notes 10900 2100 0    50   ~ 0
-I+
-Text Notes 11050 1800 0    50   ~ 0
-V-
-Text Notes 10900 1700 0    50   ~ 0
-I-
-Text Notes 11050 1600 0    50   ~ 0
-V+
-Text Notes 10900 1550 0    50   ~ 0
-I+
 $Comp
-L Connector:DB9_Female J8
-U 1 1 620824BD
-P 10950 1900
-F 0 "J8" H 11130 1946 50  0000 L CNN
-F 1 "DB9_2" H 11130 1855 50  0000 L CNN
-F 2 "Connector:DB9_ASSMANN" H 10950 1900 50  0001 C CNN
-F 3 " ~" H 10950 1900 50  0001 C CNN
-F 4 "C305943" H 10950 1900 50  0001 C CNN "LCSC"
-	1    10950 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9900 1500 10650 1500
-Wire Wire Line
-	9900 1700 10650 1700
-Wire Wire Line
-	9900 1800 10300 1800
-Wire Wire Line
-	10300 1800 10300 2100
-Wire Wire Line
-	10300 2100 10650 2100
-Wire Wire Line
-	9900 2000 10250 2000
-Wire Wire Line
-	10250 2000 10250 2300
-Wire Wire Line
-	10250 2300 10650 2300
-Wire Wire Line
-	9900 2100 9950 2100
-Wire Wire Line
-	9950 2100 9950 1600
-Wire Wire Line
-	9950 1600 10650 1600
-Wire Wire Line
-	9900 2300 10000 2300
-Wire Wire Line
-	10000 2300 10000 1850
-Wire Wire Line
-	10000 1850 10350 1850
-Wire Wire Line
-	10350 1850 10350 1800
-Wire Wire Line
-	10350 1800 10650 1800
-Wire Wire Line
-	9900 2400 10350 2400
-Wire Wire Line
-	10350 2400 10350 2000
-Wire Wire Line
-	10350 2000 10650 2000
-Wire Wire Line
-	10650 2200 10400 2200
-Wire Wire Line
-	10400 2200 10400 2600
-Wire Wire Line
-	10400 2600 9900 2600
-$Comp
-L 0My_Library:A111926-A-05-R CN9
-U 1 1 620824DB
-P 9300 5200
-F 0 "CN9" H 9342 6565 50  0000 C CNN
-F 1 "HDMI- J9" H 9342 6474 50  0000 C CNN
-F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 9300 6300 50  0001 C CNN
-F 3 "" H 9300 6100 50  0001 C CNN
-F 4 "C694736" H 9300 5900 50  0001 C CNN "LCSC"
-F 5 "std:521b09ecc7ff4f41bc817b83e1ef5d5c" H 9300 5900 50  0001 C CNN "uuid"
-	1    9300 5200
+L 0My_Library:HDMI_A J7
+U 1 1 622F28F4
+P 8600 1850
+F 0 "J7" H 9030 1896 50  0000 L CNN
+F 1 "HDMI_A" H 9030 1805 50  0000 L CNN
+F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 8625 1850 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 8625 1850 50  0001 C CNN
+F 4 "C720616" H 8600 1850 50  0001 C CNN "LCSC"
+	1    8600 1850
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 9900 4200
-NoConn ~ 9900 4500
-NoConn ~ 9900 4800
-NoConn ~ 9900 5100
-NoConn ~ 9900 6000
-NoConn ~ 9900 6100
-NoConn ~ 9900 6200
-NoConn ~ 9900 6300
-NoConn ~ 9900 5800
-NoConn ~ 9900 5600
-NoConn ~ 9900 5500
-NoConn ~ 9900 5700
-NoConn ~ 9900 5300
-NoConn ~ 9900 5900
-NoConn ~ 9900 5400
-Text Notes 11050 4850 0    50   ~ 0
-V-
-Text Notes 10900 4900 0    50   ~ 0
-I-
-Text Notes 11050 4650 0    50   ~ 0
-V+
-Text Notes 10900 4700 0    50   ~ 0
-I+
-Text Notes 11050 4400 0    50   ~ 0
-V-
-Text Notes 10900 4300 0    50   ~ 0
-I-
-Text Notes 11050 4200 0    50   ~ 0
-V+
-Text Notes 10900 4150 0    50   ~ 0
-I+
 $Comp
-L Connector:DB9_Female J9
-U 1 1 620824F9
-P 10950 4500
-F 0 "J9" H 11130 4546 50  0000 L CNN
-F 1 "DB9_3" H 11130 4455 50  0000 L CNN
-F 2 "Connector:DB9_ASSMANN" H 10950 4500 50  0001 C CNN
-F 3 " ~" H 10950 4500 50  0001 C CNN
-F 4 "C305943" H 10950 4500 50  0001 C CNN "LCSC"
-	1    10950 4500
+L Connector:DB9_Female D13
+U 1 1 622FFA03
+P 9650 550
+F 0 "D13" H 9830 596 50  0000 L CNN
+F 1 "DB9_1" H 9830 505 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 9650 550 50  0001 C CNN
+F 3 " ~" H 9650 550 50  0001 C CNN
+F 4 "C77831" H 9650 550 50  0001 C CNN "LCSC"
+	1    9650 550 
+	0    -1   -1   0   
+$EndComp
+Text Notes 10000 450  1    50   ~ 0
+V-
+Text Notes 10050 600  1    50   ~ 0
+I-
+Text Notes 9800 450  1    50   ~ 0
+V+
+Text Notes 9850 600  1    50   ~ 0
+I+
+Text Notes 9550 450  1    50   ~ 0
+V-
+Text Notes 9450 600  1    50   ~ 0
+I-
+Text Notes 9350 450  1    50   ~ 0
+V+
+Text Notes 9300 600  1    50   ~ 0
+I+
+Wire Wire Line
+	9350 850  9350 1050
+Wire Wire Line
+	9350 1050 9000 1050
+Wire Wire Line
+	9000 1150 9550 1150
+Wire Wire Line
+	9550 1150 9550 850 
+Wire Wire Line
+	9000 1250 9250 1250
+Wire Wire Line
+	9250 1250 9250 850 
+Wire Wire Line
+	9450 850  9450 1350
+Wire Wire Line
+	9450 1350 9000 1350
+$Comp
+L 0My_Library:HDMI_A J8
+U 1 1 623350C2
+P 8550 4300
+F 0 "J8" H 8980 4346 50  0000 L CNN
+F 1 "HDMI_A" H 8980 4255 50  0000 L CNN
+F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 8575 4300 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 8575 4300 50  0001 C CNN
+F 4 "C720616" H 8550 4300 50  0001 C CNN "LCSC"
+	1    8550 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:DB9_Female D15
+U 1 1 6233D799
+P 10300 3600
+F 0 "D15" H 10480 3646 50  0000 L CNN
+F 1 "DB9_1" H 10480 3555 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 10300 3600 50  0001 C CNN
+F 3 " ~" H 10300 3600 50  0001 C CNN
+F 4 "C77831" H 10300 3600 50  0001 C CNN "LCSC"
+	1    10300 3600
 	1    0    0    -1  
 $EndComp
+Text Notes 10400 3950 0    50   ~ 0
+V-
+Text Notes 10250 4000 0    50   ~ 0
+I-
+Text Notes 10400 3750 0    50   ~ 0
+V+
+Text Notes 10250 3800 0    50   ~ 0
+I+
+Text Notes 10400 3500 0    50   ~ 0
+V-
+Text Notes 10250 3400 0    50   ~ 0
+I-
+Text Notes 10400 3300 0    50   ~ 0
+V+
+Text Notes 10250 3250 0    50   ~ 0
+I+
 Wire Wire Line
-	9900 4100 10650 4100
+	9350 3600 9350 3500
 Wire Wire Line
-	9900 4300 10650 4300
+	9350 3500 8950 3500
 Wire Wire Line
-	9900 4400 10300 4400
+	8950 3600 9300 3600
 Wire Wire Line
-	10300 4400 10300 4700
+	9300 3600 9300 3800
 Wire Wire Line
-	10300 4700 10650 4700
+	9150 3700 9150 3450
 Wire Wire Line
-	9900 4600 10250 4600
+	9150 3450 9750 3450
 Wire Wire Line
-	10250 4600 10250 4900
+	8950 3700 9150 3700
 Wire Wire Line
-	10250 4900 10650 4900
+	8950 3800 9200 3800
 Wire Wire Line
-	9900 4700 9950 4700
-Wire Wire Line
-	9950 4700 9950 4200
-Wire Wire Line
-	9950 4200 10650 4200
-Wire Wire Line
-	9900 4900 10000 4900
-Wire Wire Line
-	10000 4900 10000 4450
-Wire Wire Line
-	10000 4450 10350 4450
-Wire Wire Line
-	10350 4450 10350 4400
-Wire Wire Line
-	10350 4400 10650 4400
-Wire Wire Line
-	9900 5000 10350 5000
-Wire Wire Line
-	10350 5000 10350 4600
-Wire Wire Line
-	10350 4600 10650 4600
-Wire Wire Line
-	10650 4800 10400 4800
-Wire Wire Line
-	10400 4800 10400 5200
-Wire Wire Line
-	10400 5200 9900 5200
+	9200 3800 9200 3700
+NoConn ~ 1300 4200
+NoConn ~ 1300 4400
+NoConn ~ 1300 4500
+NoConn ~ 1300 4800
+NoConn ~ 1300 4700
+NoConn ~ 1100 5200
+NoConn ~ 1000 5200
+NoConn ~ 900  5200
+NoConn ~ 800  5200
+NoConn ~ 600  5200
+NoConn ~ 1300 6600
+NoConn ~ 1300 6900
+NoConn ~ 1300 6800
+NoConn ~ 1300 7100
+NoConn ~ 1300 7200
+NoConn ~ 800  7600
+NoConn ~ 900  7600
+NoConn ~ 1000 7600
+NoConn ~ 1100 7600
+NoConn ~ 600  7600
+NoConn ~ 5100 4350
+NoConn ~ 5100 4550
+NoConn ~ 5100 4650
+NoConn ~ 5100 4850
+NoConn ~ 5100 4950
+NoConn ~ 4600 5350
+NoConn ~ 4700 5350
+NoConn ~ 4800 5350
+NoConn ~ 4900 5350
+NoConn ~ 4400 5350
+NoConn ~ 4800 7750
+NoConn ~ 4700 7750
+NoConn ~ 4600 7750
+NoConn ~ 4400 7750
+NoConn ~ 4900 7750
+NoConn ~ 5100 7250
+NoConn ~ 5100 7350
+NoConn ~ 5100 6950
+NoConn ~ 5100 7050
+NoConn ~ 5100 6750
+NoConn ~ 9000 1950
+NoConn ~ 9000 2150
+NoConn ~ 9000 2250
+NoConn ~ 9000 2450
+NoConn ~ 9000 2550
+NoConn ~ 8800 2950
+NoConn ~ 8700 2950
+NoConn ~ 8600 2950
+NoConn ~ 8500 2950
+NoConn ~ 8300 2950
+NoConn ~ 8950 4400
+NoConn ~ 8950 4600
+NoConn ~ 8950 4700
+NoConn ~ 8950 4900
+NoConn ~ 8950 5000
+NoConn ~ 8750 5400
+NoConn ~ 8650 5400
+NoConn ~ 8550 5400
+NoConn ~ 8450 5400
+NoConn ~ 8250 5400
 $Comp
 L power:GND #PWR0101
-U 1 1 6208CABF
-P 2500 1250
-F 0 "#PWR0101" H 2500 1000 50  0001 C CNN
-F 1 "GND" H 2505 1077 50  0000 C CNN
-F 2 "" H 2500 1250 50  0001 C CNN
-F 3 "" H 2500 1250 50  0001 C CNN
-	1    2500 1250
-	0    1    1    0   
+U 1 1 6260275B
+P 750 2650
+F 0 "#PWR0101" H 750 2400 50  0001 C CNN
+F 1 "GND" H 755 2477 50  0000 C CNN
+F 2 "" H 750 2650 50  0001 C CNN
+F 3 "" H 750 2650 50  0001 C CNN
+	1    750  2650
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0102
-U 1 1 6209C24E
-P 2500 3850
-F 0 "#PWR0102" H 2500 3600 50  0001 C CNN
-F 1 "GND" H 2505 3677 50  0000 C CNN
-F 2 "" H 2500 3850 50  0001 C CNN
-F 3 "" H 2500 3850 50  0001 C CNN
-	1    2500 3850
+U 1 1 62603A78
+P 2800 1200
+F 0 "#PWR0102" H 2800 950 50  0001 C CNN
+F 1 "GND" H 2805 1027 50  0000 C CNN
+F 2 "" H 2800 1200 50  0001 C CNN
+F 3 "" H 2800 1200 50  0001 C CNN
+	1    2800 1200
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0103
-U 1 1 620A3FD3
-P 2500 6500
-F 0 "#PWR0103" H 2500 6250 50  0001 C CNN
-F 1 "GND" H 2505 6327 50  0000 C CNN
-F 2 "" H 2500 6500 50  0001 C CNN
-F 3 "" H 2500 6500 50  0001 C CNN
-	1    2500 6500
+U 1 1 6260B891
+P 2100 300
+F 0 "#PWR0103" H 2100 50  50  0001 C CNN
+F 1 "GND" H 2105 127 50  0000 C CNN
+F 2 "" H 2100 300 50  0001 C CNN
+F 3 "" H 2100 300 50  0001 C CNN
+	1    2100 300 
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0104
-U 1 1 620ABA15
-P 7000 6500
-F 0 "#PWR0104" H 7000 6250 50  0001 C CNN
-F 1 "GND" H 7005 6327 50  0000 C CNN
-F 2 "" H 7000 6500 50  0001 C CNN
-F 3 "" H 7000 6500 50  0001 C CNN
-	1    7000 6500
+U 1 1 62613706
+P 2900 2250
+F 0 "#PWR0104" H 2900 2000 50  0001 C CNN
+F 1 "GND" H 2905 2077 50  0000 C CNN
+F 2 "" H 2900 2250 50  0001 C CNN
+F 3 "" H 2900 2250 50  0001 C CNN
+	1    2900 2250
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0105
-U 1 1 620B340A
-P 7000 3900
-F 0 "#PWR0105" H 7000 3650 50  0001 C CNN
-F 1 "GND" H 7005 3727 50  0000 C CNN
-F 2 "" H 7000 3900 50  0001 C CNN
-F 3 "" H 7000 3900 50  0001 C CNN
-	1    7000 3900
-	0    1    1    0   
+U 1 1 6261B6CE
+P 2300 3100
+F 0 "#PWR0105" H 2300 2850 50  0001 C CNN
+F 1 "GND" H 2305 2927 50  0000 C CNN
+F 2 "" H 2300 3100 50  0001 C CNN
+F 3 "" H 2300 3100 50  0001 C CNN
+	1    2300 3100
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0106
-U 1 1 620BAE44
-P 7000 1200
-F 0 "#PWR0106" H 7000 950 50  0001 C CNN
-F 1 "GND" H 7005 1027 50  0000 C CNN
-F 2 "" H 7000 1200 50  0001 C CNN
-F 3 "" H 7000 1200 50  0001 C CNN
-	1    7000 1200
+U 1 1 62623B2D
+P 2350 4150
+F 0 "#PWR0106" H 2350 3900 50  0001 C CNN
+F 1 "GND" H 2355 3977 50  0000 C CNN
+F 2 "" H 2350 4150 50  0001 C CNN
+F 3 "" H 2350 4150 50  0001 C CNN
+	1    2350 4150
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0107
-U 1 1 620C2851
-P 10650 -800
-F 0 "#PWR0107" H 10650 -1050 50  0001 C CNN
-F 1 "GND" H 10655 -973 50  0000 C CNN
-F 2 "" H 10650 -800 50  0001 C CNN
-F 3 "" H 10650 -800 50  0001 C CNN
-	1    10650 -800
-	0    1    1    0   
+U 1 1 6262BDF9
+P 700 5200
+F 0 "#PWR0107" H 700 4950 50  0001 C CNN
+F 1 "GND" H 705 5027 50  0000 C CNN
+F 2 "" H 700 5200 50  0001 C CNN
+F 3 "" H 700 5200 50  0001 C CNN
+	1    700  5200
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0108
-U 1 1 620CA4E0
-P 10650 1900
-F 0 "#PWR0108" H 10650 1650 50  0001 C CNN
-F 1 "GND" H 10655 1727 50  0000 C CNN
-F 2 "" H 10650 1900 50  0001 C CNN
-F 3 "" H 10650 1900 50  0001 C CNN
-	1    10650 1900
-	0    1    1    0   
+U 1 1 62633D81
+P 700 7600
+F 0 "#PWR0108" H 700 7350 50  0001 C CNN
+F 1 "GND" H 705 7427 50  0000 C CNN
+F 2 "" H 700 7600 50  0001 C CNN
+F 3 "" H 700 7600 50  0001 C CNN
+	1    700  7600
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0109
-U 1 1 620D1F48
-P 10650 4500
-F 0 "#PWR0109" H 10650 4250 50  0001 C CNN
-F 1 "GND" H 10655 4327 50  0000 C CNN
-F 2 "" H 10650 4500 50  0001 C CNN
-F 3 "" H 10650 4500 50  0001 C CNN
-	1    10650 4500
+U 1 1 6264430F
+P 4500 7750
+F 0 "#PWR0109" H 4500 7500 50  0001 C CNN
+F 1 "GND" H 4505 7577 50  0000 C CNN
+F 2 "" H 4500 7750 50  0001 C CNN
+F 3 "" H 4500 7750 50  0001 C CNN
+	1    4500 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 6264C34B
+P 4500 5350
+F 0 "#PWR0110" H 4500 5100 50  0001 C CNN
+F 1 "GND" H 4505 5177 50  0000 C CNN
+F 2 "" H 4500 5350 50  0001 C CNN
+F 3 "" H 4500 5350 50  0001 C CNN
+	1    4500 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 6265427A
+P 4550 2800
+F 0 "#PWR0111" H 4550 2550 50  0001 C CNN
+F 1 "GND" H 4555 2627 50  0000 C CNN
+F 2 "" H 4550 2800 50  0001 C CNN
+F 3 "" H 4550 2800 50  0001 C CNN
+	1    4550 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 6265C5B8
+P 5900 450
+F 0 "#PWR0112" H 5900 200 50  0001 C CNN
+F 1 "GND" H 5905 277 50  0000 C CNN
+F 2 "" H 5900 450 50  0001 C CNN
+F 3 "" H 5900 450 50  0001 C CNN
+	1    5900 450 
 	0    1    1    0   
 $EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 62664496
+P 6600 1350
+F 0 "#PWR0113" H 6600 1100 50  0001 C CNN
+F 1 "GND" H 6605 1177 50  0000 C CNN
+F 2 "" H 6600 1350 50  0001 C CNN
+F 3 "" H 6600 1350 50  0001 C CNN
+	1    6600 1350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 6266C471
+P 6700 2400
+F 0 "#PWR0114" H 6700 2150 50  0001 C CNN
+F 1 "GND" H 6705 2227 50  0000 C CNN
+F 2 "" H 6700 2400 50  0001 C CNN
+F 3 "" H 6700 2400 50  0001 C CNN
+	1    6700 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 62674566
+P 6100 3250
+F 0 "#PWR0115" H 6100 3000 50  0001 C CNN
+F 1 "GND" H 6105 3077 50  0000 C CNN
+F 2 "" H 6100 3250 50  0001 C CNN
+F 3 "" H 6100 3250 50  0001 C CNN
+	1    6100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0116
+U 1 1 6267C5AB
+P 6150 4300
+F 0 "#PWR0116" H 6150 4050 50  0001 C CNN
+F 1 "GND" H 6155 4127 50  0000 C CNN
+F 2 "" H 6150 4300 50  0001 C CNN
+F 3 "" H 6150 4300 50  0001 C CNN
+	1    6150 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 62684577
+P 9650 850
+F 0 "#PWR0117" H 9650 600 50  0001 C CNN
+F 1 "GND" H 9655 677 50  0000 C CNN
+F 2 "" H 9650 850 50  0001 C CNN
+F 3 "" H 9650 850 50  0001 C CNN
+	1    9650 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0118
+U 1 1 6268C908
+P 10000 3600
+F 0 "#PWR0118" H 10000 3350 50  0001 C CNN
+F 1 "GND" H 10005 3427 50  0000 C CNN
+F 2 "" H 10000 3600 50  0001 C CNN
+F 3 "" H 10000 3600 50  0001 C CNN
+	1    10000 3600
+	0    1    1    0   
+$EndComp
+NoConn ~ 8550 3200
+NoConn ~ 8600 750 
+NoConn ~ 8450 6050
+NoConn ~ 4700 5550
+NoConn ~ 4700 3150
+NoConn ~ 4750 600 
+NoConn ~ 950  450 
+NoConn ~ 900  3000
+NoConn ~ 900  5400
+$Comp
+L Connector:DB9_Female D6
+U 1 1 626F5C93
+P 2400 6700
+F 0 "D6" H 2580 6746 50  0000 L CNN
+F 1 "DB9_1" H 2580 6655 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 2400 6700 50  0001 C CNN
+F 3 " ~" H 2400 6700 50  0001 C CNN
+F 4 "C77831" H 2400 6700 50  0001 C CNN "LCSC"
+	1    2400 6700
+	1    0    0    -1  
+$EndComp
+Text Notes 2500 7050 0    50   ~ 0
+V-
+Text Notes 2350 7100 0    50   ~ 0
+I-
+Text Notes 2500 6850 0    50   ~ 0
+V+
+Text Notes 2350 6900 0    50   ~ 0
+I+
+Text Notes 2500 6600 0    50   ~ 0
+V-
+Text Notes 2350 6500 0    50   ~ 0
+I-
+Text Notes 2500 6400 0    50   ~ 0
+V+
+Text Notes 2350 6350 0    50   ~ 0
+I+
+Wire Wire Line
+	1300 6100 2100 6100
+Wire Wire Line
+	2100 6100 2100 6300
+Wire Wire Line
+	1300 6200 1850 6200
+Wire Wire Line
+	1850 6200 1850 6500
+Wire Wire Line
+	1850 6500 2100 6500
+Wire Wire Line
+	2100 6400 1600 6400
+Wire Wire Line
+	1600 6400 1600 6300
+Wire Wire Line
+	1600 6300 1300 6300
+Wire Wire Line
+	1300 6400 1450 6400
+Wire Wire Line
+	1450 6400 1450 6600
+Wire Wire Line
+	1450 6600 2100 6600
+$Comp
+L Connector:DB9_Female D12
+U 1 1 627249F1
+P 6200 6850
+F 0 "D12" H 6380 6896 50  0000 L CNN
+F 1 "DB9_1" H 6380 6805 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 6200 6850 50  0001 C CNN
+F 3 " ~" H 6200 6850 50  0001 C CNN
+F 4 "C77831" H 6200 6850 50  0001 C CNN "LCSC"
+	1    6200 6850
+	1    0    0    -1  
+$EndComp
+Text Notes 6300 7200 0    50   ~ 0
+V-
+Text Notes 6150 7250 0    50   ~ 0
+I-
+Text Notes 6300 7000 0    50   ~ 0
+V+
+Text Notes 6150 7050 0    50   ~ 0
+I+
+Text Notes 6300 6750 0    50   ~ 0
+V-
+Text Notes 6150 6650 0    50   ~ 0
+I-
+Text Notes 6300 6550 0    50   ~ 0
+V+
+Text Notes 6150 6500 0    50   ~ 0
+I+
+Wire Wire Line
+	5100 6250 5900 6250
+Wire Wire Line
+	5900 6250 5900 6450
+Wire Wire Line
+	5100 6350 5650 6350
+Wire Wire Line
+	5650 6350 5650 6650
+Wire Wire Line
+	5650 6650 5900 6650
+Wire Wire Line
+	5900 6550 5400 6550
+Wire Wire Line
+	5400 6550 5400 6450
+Wire Wire Line
+	5400 6450 5100 6450
+Wire Wire Line
+	5100 6550 5250 6550
+Wire Wire Line
+	5250 6550 5250 6750
+Wire Wire Line
+	5250 6750 5900 6750
+NoConn ~ 5900 6950
+NoConn ~ 5900 7050
+NoConn ~ 5900 7150
+NoConn ~ 5900 7250
+NoConn ~ 2100 6800
+NoConn ~ 2100 6900
+NoConn ~ 2100 7000
+NoConn ~ 2100 7100
+$Comp
+L power:GND #PWR0120
+U 1 1 62785939
+P 2100 6700
+F 0 "#PWR0120" H 2100 6450 50  0001 C CNN
+F 1 "GND" V 2105 6572 50  0000 R CNN
+F 2 "" H 2100 6700 50  0001 C CNN
+F 3 "" H 2100 6700 50  0001 C CNN
+	1    2100 6700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 62786943
+P 5900 6850
+F 0 "#PWR0121" H 5900 6600 50  0001 C CNN
+F 1 "GND" V 5905 6722 50  0000 R CNN
+F 2 "" H 5900 6850 50  0001 C CNN
+F 3 "" H 5900 6850 50  0001 C CNN
+	1    5900 6850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 620281B2
+P 8350 5400
+F 0 "#PWR0122" H 8350 5150 50  0001 C CNN
+F 1 "GND" H 8355 5227 50  0000 C CNN
+F 2 "" H 8350 5400 50  0001 C CNN
+F 3 "" H 8350 5400 50  0001 C CNN
+	1    8350 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 62033F6F
+P 8400 2950
+F 0 "#PWR0124" H 8400 2700 50  0001 C CNN
+F 1 "GND" H 8405 2777 50  0000 C CNN
+F 2 "" H 8400 2950 50  0001 C CNN
+F 3 "" H 8400 2950 50  0001 C CNN
+	1    8400 2950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6600 1450
+NoConn ~ 6600 1550
+NoConn ~ 6600 1650
+NoConn ~ 6600 1750
+NoConn ~ 5900 550 
+NoConn ~ 5900 650 
+NoConn ~ 5900 750 
+NoConn ~ 5900 850 
+NoConn ~ 2800 1300
+NoConn ~ 2800 1400
+NoConn ~ 2800 1500
+NoConn ~ 2800 1600
+NoConn ~ 2100 400 
+NoConn ~ 2100 500 
+NoConn ~ 2100 600 
+NoConn ~ 2100 700 
+NoConn ~ 3500 -1800
+$Comp
+L Connector:DB9_Female D14
+U 1 1 62131461
+P 11000 1800
+F 0 "D14" H 11180 1846 50  0000 L CNN
+F 1 "DB9_1" H 11180 1755 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 11000 1800 50  0001 C CNN
+F 3 " ~" H 11000 1800 50  0001 C CNN
+F 4 "C77831" H 11000 1800 50  0001 C CNN "LCSC"
+	1    11000 1800
+	1    0    0    -1  
+$EndComp
+Text Notes 11100 2150 0    50   ~ 0
+V-
+Text Notes 10950 2200 0    50   ~ 0
+I-
+Text Notes 11100 1950 0    50   ~ 0
+V+
+Text Notes 10950 2000 0    50   ~ 0
+I+
+Text Notes 11100 1700 0    50   ~ 0
+V-
+Text Notes 10950 1600 0    50   ~ 0
+I-
+Text Notes 11100 1500 0    50   ~ 0
+V+
+Text Notes 10950 1450 0    50   ~ 0
+I+
+Wire Wire Line
+	10700 1500 10500 1500
+Wire Wire Line
+	10400 1700 10700 1700
+Wire Wire Line
+	10300 1400 10700 1400
+Wire Wire Line
+	10700 1600 10200 1600
+$Comp
+L power:GND #PWR03
+U 1 1 62131473
+P 10700 1800
+F 0 "#PWR03" H 10700 1550 50  0001 C CNN
+F 1 "GND" H 10705 1627 50  0000 C CNN
+F 2 "" H 10700 1800 50  0001 C CNN
+F 3 "" H 10700 1800 50  0001 C CNN
+	1    10700 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10500 1450 10500 1500
+Wire Wire Line
+	9000 1450 10500 1450
+Wire Wire Line
+	10400 1550 10400 1700
+Wire Wire Line
+	9000 1550 10400 1550
+Wire Wire Line
+	10300 1650 10300 1400
+Wire Wire Line
+	9000 1650 10300 1650
+Wire Wire Line
+	10200 1750 10200 1600
+Wire Wire Line
+	9000 1750 10200 1750
+Wire Wire Line
+	10000 3200 9750 3200
+Wire Wire Line
+	9750 3200 9750 3450
+Wire Wire Line
+	9800 3600 9800 3300
+Wire Wire Line
+	9800 3300 10000 3300
+Wire Wire Line
+	9350 3600 9800 3600
+Wire Wire Line
+	9850 3700 9850 3400
+Wire Wire Line
+	9850 3400 10000 3400
+Wire Wire Line
+	9200 3700 9850 3700
+Wire Wire Line
+	9900 3800 9900 3500
+Wire Wire Line
+	9900 3500 10000 3500
+Wire Wire Line
+	9300 3800 9900 3800
+$Comp
+L power:GND #PWR0123
+U 1 1 6202933C
+P 8250 8250
+F 0 "#PWR0123" H 8250 8000 50  0001 C CNN
+F 1 "GND" H 8255 8077 50  0000 C CNN
+F 2 "" H 8250 8250 50  0001 C CNN
+F 3 "" H 8250 8250 50  0001 C CNN
+	1    8250 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 62694858
+P 9650 6650
+F 0 "#PWR0119" H 9650 6400 50  0001 C CNN
+F 1 "GND" H 9655 6477 50  0000 C CNN
+F 2 "" H 9650 6650 50  0001 C CNN
+F 3 "" H 9650 6650 50  0001 C CNN
+	1    9650 6650
+	0    1    1    0   
+$EndComp
+NoConn ~ 8150 8250
+NoConn ~ 8350 8250
+NoConn ~ 8450 8250
+NoConn ~ 8650 8250
+NoConn ~ 8550 8250
+NoConn ~ 8850 7850
+NoConn ~ 8850 7750
+NoConn ~ 8850 7550
+NoConn ~ 8850 7450
+NoConn ~ 8850 7250
+Wire Wire Line
+	8850 7050 9650 7050
+Wire Wire Line
+	8950 6950 8850 6950
+Wire Wire Line
+	8950 6900 8950 6950
+Wire Wire Line
+	9250 6900 8950 6900
+Wire Wire Line
+	9250 6850 9250 6900
+Wire Wire Line
+	9650 6850 9250 6850
+Wire Wire Line
+	9150 6950 9650 6950
+Wire Wire Line
+	9150 6850 9150 6950
+Wire Wire Line
+	8850 6850 9150 6850
+Wire Wire Line
+	8850 6750 9650 6750
+Wire Wire Line
+	9300 6650 8850 6650
+Wire Wire Line
+	9300 6450 9300 6650
+Wire Wire Line
+	9650 6450 9300 6450
+Wire Wire Line
+	8950 6250 9650 6250
+Wire Wire Line
+	8950 6550 8950 6250
+Wire Wire Line
+	8850 6550 8950 6550
+Wire Wire Line
+	9250 6550 9650 6550
+Wire Wire Line
+	9250 6450 9250 6550
+Wire Wire Line
+	8850 6450 9250 6450
+Wire Wire Line
+	9650 6350 8850 6350
+Text Notes 9900 6300 0    50   ~ 0
+I+
+Text Notes 10050 6350 0    50   ~ 0
+V+
+Text Notes 9900 6450 0    50   ~ 0
+I-
+Text Notes 10050 6550 0    50   ~ 0
+V-
+Text Notes 9900 6850 0    50   ~ 0
+I+
+Text Notes 10050 6800 0    50   ~ 0
+V+
+Text Notes 9900 7050 0    50   ~ 0
+I-
+Text Notes 10050 7000 0    50   ~ 0
+V-
+$Comp
+L Connector:DB9_Female D17
+U 1 1 62381450
+P 9950 6650
+F 0 "D17" H 10130 6696 50  0000 L CNN
+F 1 "DB9_1" H 10130 6605 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 9950 6650 50  0001 C CNN
+F 3 " ~" H 9950 6650 50  0001 C CNN
+F 4 "C77831" H 9950 6650 50  0001 C CNN "LCSC"
+	1    9950 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0My_Library:HDMI_A J9
+U 1 1 6237C205
+P 8450 7150
+F 0 "J9" H 8880 7196 50  0000 L CNN
+F 1 "HDMI_A" H 8880 7105 50  0000 L CNN
+F 2 "Connector:HDMI-SMD_A111926-B-01-R_Female" H 8475 7150 50  0001 C CNN
+F 3 "https://en.wikipedia.org/wiki/HDMI" H 8475 7150 50  0001 C CNN
+F 4 "C720616" H 8450 7150 50  0001 C CNN "LCSC"
+	1    8450 7150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:DB9_Female D16
+U 1 1 621F2A19
+P 10300 4700
+F 0 "D16" H 10480 4746 50  0000 L CNN
+F 1 "DB9_1" H 10480 4655 50  0000 L CNN
+F 2 "Connector:Vertical_DB9_Female" H 10300 4700 50  0001 C CNN
+F 3 " ~" H 10300 4700 50  0001 C CNN
+F 4 "C77831" H 10300 4700 50  0001 C CNN "LCSC"
+	1    10300 4700
+	1    0    0    -1  
+$EndComp
+Text Notes 10400 5050 0    50   ~ 0
+V-
+Text Notes 10250 5100 0    50   ~ 0
+I-
+Text Notes 10400 4850 0    50   ~ 0
+V+
+Text Notes 10250 4900 0    50   ~ 0
+I+
+Text Notes 10400 4600 0    50   ~ 0
+V-
+Text Notes 10250 4500 0    50   ~ 0
+I-
+Text Notes 10400 4400 0    50   ~ 0
+V+
+Text Notes 10250 4350 0    50   ~ 0
+I+
+Wire Wire Line
+	10000 4400 9800 4400
+Wire Wire Line
+	9600 4300 10000 4300
+Wire Wire Line
+	10000 4500 9500 4500
+$Comp
+L power:GND #PWR02
+U 1 1 621F2A2B
+P 10000 4700
+F 0 "#PWR02" H 10000 4450 50  0001 C CNN
+F 1 "GND" H 10005 4527 50  0000 C CNN
+F 2 "" H 10000 4700 50  0001 C CNN
+F 3 "" H 10000 4700 50  0001 C CNN
+	1    10000 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 3900 9800 3900
+Wire Wire Line
+	9800 3900 9800 4400
+Wire Wire Line
+	8950 4000 9900 4000
+Wire Wire Line
+	9900 4000 9900 4600
+Wire Wire Line
+	9900 4600 10000 4600
+Wire Wire Line
+	8950 4100 9600 4100
+Wire Wire Line
+	9600 4100 9600 4300
+Wire Wire Line
+	8950 4200 9500 4200
+Wire Wire Line
+	9500 4200 9500 4500
+NoConn ~ 10000 5100
+NoConn ~ 10000 5000
+NoConn ~ 10000 4900
+NoConn ~ 10000 4800
+NoConn ~ 10000 3700
+NoConn ~ 10000 3800
+NoConn ~ 10000 3900
+NoConn ~ 10000 4000
+NoConn ~ 10700 1900
+NoConn ~ 10700 2000
+NoConn ~ 10700 2100
+NoConn ~ 10700 2200
+NoConn ~ 9750 850 
+NoConn ~ 9850 850 
+NoConn ~ 9950 850 
+NoConn ~ 10050 850 
 $EndSCHEMATC

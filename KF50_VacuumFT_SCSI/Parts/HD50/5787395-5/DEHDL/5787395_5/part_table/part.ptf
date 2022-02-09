@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '5787395_5'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "5787395-5" (!) = "", "57873955", "Other", "571-5787395-5", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/5787395-5?qs=Lu3apKW7jUjLun%252BUYfl%252BvA%3D%3D", "5787395-5", "https://www.arrow.com/en/products/5787395-5/te-connectivity", "TE Connectivity Amplimite .050 III Series 50 Way Right Angle Panel Mount PCB D-sub Connector, Socket", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F5787395%7FB%7Fpdf%7FEnglish%7FENG_CD_5787395_B.pdf%7F5787395-5", "10.31 mm"
+END_PART
+
+END.

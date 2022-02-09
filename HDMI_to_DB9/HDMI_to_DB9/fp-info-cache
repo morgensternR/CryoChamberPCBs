@@ -1,4 +1,4 @@
-19871956746779664
+19888390535133944
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6160,6 +6160,13 @@ Connector
 27
 27
 Connector
+Arduino_Uno_Shield
+https://store.arduino.cc/arduino-uno-rev3
+
+0
+38
+37
+Connector
 Banana_Jack_1Pin
 Single banana socket, footprint - 6mm drill
 banana socket
@@ -6181,12 +6188,26 @@ banana socket
 3
 3
 Connector
+CONN-SMD_10P-P1.00_SM10B-SRSS-TB-LF-SN
+
+
+0
+12
+12
+Connector
 CONN-SMD_BM10B-SRSS-TB-LF-SN
 
 
 0
 12
 12
+Connector
+CONN-SMD_SM03B-SRSS-TB-LF-SN-P
+
+
+0
+5
+5
 Connector
 CUI_PD-30
 3 pin connector, PD-30, http://www.cui.com/product/resource/pd-30.pdf
@@ -6215,6 +6236,13 @@ CONN DB9
 0
 11
 10
+Connector
+DSUB-TH_2-5747706-0_Vertical-Db9
+
+
+0
+11
+11
 Connector
 DTF13-12Px
 http://www.te.com/usa-en/product-DTF13-12PA-G003.html
@@ -6257,6 +6285,27 @@ HDMI-Vertical-Male-JLBPCB
 0
 21
 20
+Connector
+HDR-TH_6P-P2.54-V_Z-211-0611-0021-001
+
+
+0
+6
+6
+Connector
+HDR-TH_8P-P2.54-V-M
+
+
+0
+8
+8
+Connector
+HDR-TH_10P-P2.54-V-M-1
+
+
+0
+10
+10
 Connector
 HDR-TH_20P-P2.54-V-M
 
@@ -6377,6 +6426,13 @@ Omnetics_21Pin
 21
 21
 Connector
+RJ11-TH_PCB-6P6C-90
+
+
+0
+6
+6
+Connector
 RJ45_Vertical_1091942
 
 
@@ -6390,6 +6446,13 @@ SAMTEC_LSHM-120-01-X-RH-A-S-K-XX
 0
 46
 46
+Connector
+SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR
+
+
+0
+3
+3
 Connector
 SpringContact_Harwin_S1941-46R
 7.25mm SMT Multi-directional Spring Contact (T+R), https://cdn.harwin.com/pdfs/S1941R.pdf
@@ -6460,6 +6523,13 @@ USB-B_TH_BF90
 0
 6
 5
+Connector
+Vertical_DB9_Female
+
+
+0
+11
+11
 Connector
 WHB1K0FET
 
