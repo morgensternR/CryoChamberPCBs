@@ -1399,46 +1399,6 @@ NoConn ~ 8850 7750
 NoConn ~ 8850 7550
 NoConn ~ 8850 7450
 NoConn ~ 8850 7250
-Wire Wire Line
-	8850 7050 9650 7050
-Wire Wire Line
-	8950 6950 8850 6950
-Wire Wire Line
-	8950 6900 8950 6950
-Wire Wire Line
-	9250 6900 8950 6900
-Wire Wire Line
-	9250 6850 9250 6900
-Wire Wire Line
-	9650 6850 9250 6850
-Wire Wire Line
-	9150 6950 9650 6950
-Wire Wire Line
-	9150 6850 9150 6950
-Wire Wire Line
-	8850 6850 9150 6850
-Wire Wire Line
-	8850 6750 9650 6750
-Wire Wire Line
-	9300 6650 8850 6650
-Wire Wire Line
-	9300 6450 9300 6650
-Wire Wire Line
-	9650 6450 9300 6450
-Wire Wire Line
-	8950 6250 9650 6250
-Wire Wire Line
-	8950 6550 8950 6250
-Wire Wire Line
-	8850 6550 8950 6550
-Wire Wire Line
-	9250 6550 9650 6550
-Wire Wire Line
-	9250 6450 9250 6550
-Wire Wire Line
-	8850 6450 9250 6450
-Wire Wire Line
-	9650 6350 8850 6350
 Text Notes 9900 6300 0    50   ~ 0
 I+
 Text Notes 10050 6350 0    50   ~ 0
@@ -1509,10 +1469,6 @@ Text Notes 10250 4350 0    50   ~ 0
 I+
 Wire Wire Line
 	10000 4400 9800 4400
-Wire Wire Line
-	9600 4300 10000 4300
-Wire Wire Line
-	10000 4500 9500 4500
 $Comp
 L power:GND #PWR02
 U 1 1 621F2A2B
@@ -1524,24 +1480,6 @@ F 3 "" H 10000 4700 50  0001 C CNN
 	1    10000 4700
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8950 3900 9800 3900
-Wire Wire Line
-	9800 3900 9800 4400
-Wire Wire Line
-	8950 4000 9900 4000
-Wire Wire Line
-	9900 4000 9900 4600
-Wire Wire Line
-	9900 4600 10000 4600
-Wire Wire Line
-	8950 4100 9600 4100
-Wire Wire Line
-	9600 4100 9600 4300
-Wire Wire Line
-	8950 4200 9500 4200
-Wire Wire Line
-	9500 4200 9500 4500
 NoConn ~ 10000 5100
 NoConn ~ 10000 5000
 NoConn ~ 10000 4900
@@ -1558,4 +1496,74 @@ NoConn ~ 9750 850
 NoConn ~ 9850 850 
 NoConn ~ 9950 850 
 NoConn ~ 10050 850 
+Wire Wire Line
+	8950 3900 9500 3900
+Wire Wire Line
+	9500 3900 9500 4300
+Wire Wire Line
+	9500 4300 10000 4300
+Wire Wire Line
+	8950 4000 9450 4000
+Wire Wire Line
+	9450 4000 9450 4500
+Wire Wire Line
+	9450 4500 10000 4500
+Wire Wire Line
+	8950 4100 9800 4100
+Wire Wire Line
+	9800 4100 9800 4400
+Wire Wire Line
+	8950 4200 9350 4200
+Wire Wire Line
+	9350 4200 9350 4600
+Wire Wire Line
+	9350 4600 10000 4600
+Wire Wire Line
+	8850 6350 9100 6350
+Wire Wire Line
+	9100 6350 9100 6250
+Wire Wire Line
+	9100 6250 9650 6250
+Wire Wire Line
+	8850 6450 9650 6450
+Wire Wire Line
+	9200 6550 9200 6350
+Wire Wire Line
+	9200 6350 9650 6350
+Wire Wire Line
+	8850 6550 9200 6550
+Wire Wire Line
+	8850 6650 9300 6650
+Wire Wire Line
+	9300 6650 9300 6550
+Wire Wire Line
+	9300 6550 9650 6550
+Wire Wire Line
+	8850 6750 9250 6750
+Wire Wire Line
+	9250 6750 9250 6850
+Wire Wire Line
+	9250 6850 9650 6850
+Wire Wire Line
+	8850 6850 9200 6850
+Wire Wire Line
+	9200 6850 9200 7050
+Wire Wire Line
+	9200 7050 9650 7050
+Wire Wire Line
+	9350 6950 9350 6750
+Wire Wire Line
+	9350 6750 9650 6750
+Wire Wire Line
+	8850 6950 9350 6950
+Wire Wire Line
+	8850 7050 9100 7050
+Wire Wire Line
+	9100 7050 9100 7100
+Wire Wire Line
+	9100 7100 9500 7100
+Wire Wire Line
+	9500 7100 9500 6950
+Wire Wire Line
+	9500 6950 9650 6950
 $EndSCHEMATC
