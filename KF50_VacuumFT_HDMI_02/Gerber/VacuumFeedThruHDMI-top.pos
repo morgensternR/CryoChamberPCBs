@@ -1,0 +1,15 @@
+### Module positions - created on 03/30/22 13:27:20 ###
+### Printed by Pcbnew version kicad (5.1.10)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val         Package                         PosX       PosY       Rot  Side
+J1        HDMI_A_1.4  HDMI-Vertical-Male-JLBPCB    11.0000    60.8000  270.0000  top
+J2        HDMI_A_1.4  HDMI-Vertical-Male-JLBPCB    30.0000    60.8000  270.0000  top
+J3        HDMI_A_1.4  HDMI-Vertical-Male-JLBPCB    49.0000    60.8000  270.0000  top
+J4        HDMI_A_1.4  HDMI-Vertical-Male-JLBPCB   -49.0000    60.8000  270.0000  top
+J5        HDMI_A_1.4  HDMI-Vertical-Male-JLBPCB   -30.0000    60.8000  270.0000  top
+J6        HDMI_A_1.4  HDMI-Vertical-Male-JLBPCB   -11.0000    60.8000  270.0000  top
+J7        HDMI_A_1.4  HDMI-Vertical-Male-JLBPCB   -16.0000   -63.0000  270.0000  top
+J8        HDMI_A_1.4  HDMI-Vertical-Male-JLBPCB     0.0000   -63.0000  270.0000  top
+J9        HDMI_A_1.4  HDMI-Vertical-Male-JLBPCB    16.0000   -63.0000  270.0000  top
+## End
