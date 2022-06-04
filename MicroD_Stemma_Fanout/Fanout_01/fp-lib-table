@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "0_Fanout_Footprints")(type "KiCad")(uri "${KIPRJMOD}/Parts/0_Fanout_Footprints.pretty")(options "")(descr ""))
+)
