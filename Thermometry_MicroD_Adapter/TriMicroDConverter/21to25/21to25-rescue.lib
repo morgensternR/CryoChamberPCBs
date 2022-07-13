@@ -1,0 +1,37 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MicroD_21Pin-Connector
+#
+DEF MicroD_21Pin-Connector M21 0 40 Y Y 1 F N
+F0 "M21" 0 400 50 H V C CNN
+F1 "MicroD_21Pin-Connector" 0 350 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 5 0 1 0 -300 50 -250 -100 300 -100 350 50 -300 50 N
+X ~ 1 -250 0 0 D 20 20 1 1 B
+X ~ 10 200 0 0 D 20 20 1 1 B
+X ~ 11 250 0 0 D 20 20 1 1 B
+X ~ 12 -200 -50 0 D 20 20 1 1 B
+X ~ 13 -150 -50 0 D 20 20 1 1 B
+X ~ 14 -100 -50 0 D 20 20 1 1 B
+X ~ 15 -50 -50 0 D 20 20 1 1 B
+X ~ 16 0 -50 0 D 20 20 1 1 B
+X ~ 17 50 -50 0 D 20 20 1 1 B
+X ~ 18 100 -50 0 D 20 20 1 1 B
+X ~ 19 150 -50 0 D 20 20 1 1 B
+X ~ 2 -200 0 0 D 20 20 1 1 B
+X ~ 20 200 -50 0 D 20 20 1 1 B
+X ~ 21 250 -50 0 D 20 20 1 1 B
+X ~ 3 -150 0 0 D 20 20 1 1 B
+X ~ 4 -100 0 0 D 20 20 1 1 B
+X ~ 5 -50 0 0 D 20 20 1 1 B
+X ~ 6 0 0 0 D 20 20 1 1 B
+X ~ 7 50 0 0 D 20 20 1 1 B
+X ~ 8 100 0 0 D 20 20 1 1 B
+X ~ 9 150 0 0 D 20 20 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library

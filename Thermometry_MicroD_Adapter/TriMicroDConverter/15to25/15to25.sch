@@ -25,48 +25,7 @@ F 3 " ~" H 6800 3200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	6500 2000 5950 2000
-Wire Wire Line
-	6500 2100 5950 2100
-Wire Wire Line
-	5950 2200 6500 2200
-Wire Wire Line
-	6500 2300 5950 2300
-Wire Wire Line
-	5950 2400 6500 2400
-Wire Wire Line
-	6500 2500 5950 2500
-Wire Wire Line
-	5950 2600 6500 2600
-Wire Wire Line
-	6500 2700 5950 2700
-Wire Wire Line
-	5950 2800 6500 2800
-Wire Wire Line
-	6500 2900 5950 2900
-Wire Wire Line
-	5950 3000 6500 3000
-Wire Wire Line
-	6500 3100 5950 3100
-Wire Wire Line
-	6500 3300 6700 3300
-Wire Wire Line
-	6700 3300 6700 3150
-Wire Wire Line
-	6700 3150 6100 3150
-Wire Wire Line
-	6100 3150 6100 3300
-Wire Wire Line
-	6100 3300 5950 3300
-NoConn ~ 5950 3200
-Wire Wire Line
-	6150 3200 6150 3350
-Wire Wire Line
-	6150 3350 5950 3350
-Wire Wire Line
 	5950 3350 5950 3400
-Wire Wire Line
-	6150 3200 6500 3200
 NoConn ~ 6500 4400
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even J1
@@ -150,4 +109,53 @@ Wire Wire Line
 	6050 3800 5300 3800
 Wire Wire Line
 	5300 3800 5300 3750
+NoConn ~ 5950 2400
+Wire Wire Line
+	5950 2000 6500 2000
+Wire Wire Line
+	5950 2100 6500 2100
+Wire Wire Line
+	5950 2200 6500 2200
+Wire Wire Line
+	5950 2300 6500 2300
+Wire Wire Line
+	6500 2400 6150 2400
+Wire Wire Line
+	6150 2400 6150 2600
+Wire Wire Line
+	6150 2600 5950 2600
+Wire Wire Line
+	5950 2500 6500 2500
+Wire Wire Line
+	6500 2600 6200 2600
+Wire Wire Line
+	6200 2600 6200 2800
+Wire Wire Line
+	6200 2800 5950 2800
+Wire Wire Line
+	5950 2700 6500 2700
+Wire Wire Line
+	6500 2800 6250 2800
+Wire Wire Line
+	6250 2800 6250 3000
+Wire Wire Line
+	6250 3000 5950 3000
+Wire Wire Line
+	5950 2900 6500 2900
+Wire Wire Line
+	6500 3000 6300 3000
+Wire Wire Line
+	6300 3000 6300 3200
+Wire Wire Line
+	6300 3200 5950 3200
+Wire Wire Line
+	5950 3100 6500 3100
+Wire Wire Line
+	6500 3200 6350 3200
+Wire Wire Line
+	6350 3200 6350 3350
+Wire Wire Line
+	6350 3350 5950 3350
+Wire Wire Line
+	5950 3300 6500 3300
 $EndSCHEMATC
