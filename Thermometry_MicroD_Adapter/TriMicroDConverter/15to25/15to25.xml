@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\rdm8\Documents\GitHub\CryoChamberPCBs\Thermometry_MicroD_Adapter\TriMicroDConverter\15to25\15to25.sch</source>
+    <date>7/13/2022 12:20:35 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>15to25.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J4">
+      <value>DB25_Male</value>
+      <footprint>Connector:Norcomp-380-025-113L001-microd_NoLeads</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="DB25_Male_MountingHoles" description="25-pin male D-SUB connector, Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610858EB</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>DB15_Male</value>
+      <footprint>Connector:380-015-113L001</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="DB15_Male_MountingHoles" description="15-pin male D-SUB connector (low-density/2 columns), Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61081BFB</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62CF5D5C</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C371588</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62D54AD7</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x04</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C371588</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62D59C75</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="DB15_Male_MountingHoles">
+      <description>15-pin male D-SUB connector (low-density/2 columns), Mounting Hole</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Male*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB15_Male_MountingHoles</field>
+      </fields>
+      <pins>
+        <pin num="0" name="PAD" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P111" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DB25_Male_MountingHoles">
+      <description>25-pin male D-SUB connector, Mounting Hole</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Male*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB25_Male_MountingHoles</field>
+      </fields>
+      <pins>
+        <pin num="0" name="PAD" type="passive"/>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="2" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="J4" pin="8"/>
+    </net>
+    <net code="3" name="Net-(J4-Pad25)">
+      <node ref="J5" pin="2"/>
+      <node ref="J4" pin="25"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="J2" pin="0"/>
+      <node ref="J4" pin="0"/>
+    </net>
+    <net code="5" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="6" name="Net-(J2-Pad15)">
+      <node ref="J4" pin="20"/>
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="7" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="8" name="Net-(J2-Pad5)">
+      <node ref="J4" pin="4"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="9" name="Net-(J2-Pad4)">
+      <node ref="J4" pin="3"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad2)">
+      <node ref="J4" pin="21"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(J4-Pad12)">
+      <node ref="J4" pin="12"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+      <node ref="J4" pin="22"/>
+    </net>
+    <net code="13" name="Net-(J3-Pad4)">
+      <node ref="J4" pin="24"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="14" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="15" name="Net-(J2-Pad9)">
+      <node ref="J2" pin="9"/>
+      <node ref="J4" pin="14"/>
+    </net>
+    <net code="16" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="17" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="J4" pin="9"/>
+    </net>
+    <net code="18" name="Net-(J3-Pad2)">
+      <node ref="J4" pin="23"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="19" name="Net-(J2-Pad10)">
+      <node ref="J2" pin="10"/>
+      <node ref="J4" pin="15"/>
+    </net>
+    <net code="20" name="Net-(J4-Pad13)">
+      <node ref="J4" pin="13"/>
+    </net>
+    <net code="21" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+      <node ref="J4" pin="11"/>
+    </net>
+    <net code="22" name="Net-(J3-Pad1)">
+      <node ref="J4" pin="10"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="23" name="Net-(J2-Pad8)">
+      <node ref="J2" pin="8"/>
+      <node ref="J4" pin="7"/>
+    </net>
+    <net code="24" name="Net-(J2-Pad14)">
+      <node ref="J2" pin="14"/>
+      <node ref="J4" pin="19"/>
+    </net>
+    <net code="25" name="Net-(J2-Pad13)">
+      <node ref="J2" pin="13"/>
+      <node ref="J4" pin="18"/>
+    </net>
+    <net code="26" name="Net-(J2-Pad12)">
+      <node ref="J2" pin="12"/>
+      <node ref="J4" pin="17"/>
+    </net>
+    <net code="27" name="Net-(J2-Pad11)">
+      <node ref="J2" pin="11"/>
+      <node ref="J4" pin="16"/>
+    </net>
+  </nets>
+</export>
