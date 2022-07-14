@@ -1,5 +1,5 @@
 Comment,Designator,Footprint,LCSC
-"Conn_01x04","J1,J3","Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical","C371588"
+"Conn_01x04","J1,J3","Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical","C566009"
 "DB15_Male","J2","Connector:380-015-113L001",""
 "DB25_Male","J4","Connector:Norcomp-380-025-113L001-microd_NoLeads",""
 "Conn_01x02","J5","Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical",""

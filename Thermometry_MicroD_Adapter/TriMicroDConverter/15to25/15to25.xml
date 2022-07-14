@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\rdm8\Documents\GitHub\CryoChamberPCBs\Thermometry_MicroD_Adapter\TriMicroDConverter\15to25\15to25.sch</source>
-    <date>7/13/2022 12:20:35 PM</date>
+    <date>7/13/2022 5:21:43 PM</date>
     <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -45,10 +45,10 @@
     </comp>
     <comp ref="J1">
       <value>Conn_01x04</value>
-      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <footprint>Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C371588</field>
+        <field name="LCSC">C566009</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
@@ -56,10 +56,10 @@
     </comp>
     <comp ref="J3">
       <value>Conn_01x04</value>
-      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <footprint>Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical</footprint>
       <datasheet>~</datasheet>
       <fields>
-        <field name="LCSC">C371588</field>
+        <field name="LCSC">C566009</field>
       </fields>
       <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <sheetpath names="/" tstamps="/"/>
