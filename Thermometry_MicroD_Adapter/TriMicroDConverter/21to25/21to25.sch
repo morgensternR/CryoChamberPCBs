@@ -166,220 +166,40 @@ F 3 "" H 5450 1700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 5450 1700
-$Comp
-L Connector_Generic:Conn_01x02 J6
-U 1 1 62D16611
-P 9300 2600
-F 0 "J6" H 9380 2592 50  0000 L CNN
-F 1 "Conn_01x02" H 9380 2501 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9300 2600 50  0001 C CNN
-F 3 "~" H 9300 2600 50  0001 C CNN
-F 4 "C225188" H 9300 2600 50  0001 C CNN "LCSC"
-	1    9300 2600
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J7
-U 1 1 62D18451
-P 9550 2600
-F 0 "J7" H 9630 2592 50  0000 L CNN
-F 1 "Conn_01x02" H 9630 2501 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9550 2600 50  0001 C CNN
-F 3 "~" H 9550 2600 50  0001 C CNN
-F 4 "C225188" H 9550 2600 50  0001 C CNN "LCSC"
-	1    9550 2600
-	0    1    1    0   
-$EndComp
-Text Label 7600 3600 0    50   ~ 0
-9
-Text Label 7600 3700 0    50   ~ 0
-22
-Text Label 7600 3800 0    50   ~ 0
-10
-Text Label 7600 3900 0    50   ~ 0
-23
-Wire Wire Line
-	7000 3600 7600 3600
 Connection ~ 7000 3600
-Wire Wire Line
-	7600 3700 7000 3700
 Connection ~ 7000 3700
-Wire Wire Line
-	7000 3800 7600 3800
 Connection ~ 7000 3800
-Wire Wire Line
-	7000 3900 7600 3900
 Connection ~ 7000 3900
-Text Label 9050 2100 0    50   ~ 0
-9
-Text Label 9200 2100 0    50   ~ 0
-22
-Wire Wire Line
-	9050 2100 9050 2150
-Wire Wire Line
-	8800 2400 8800 2150
-Wire Wire Line
-	8800 2150 9050 2150
-Connection ~ 9050 2150
-Wire Wire Line
-	9050 2150 9050 2400
-Wire Wire Line
-	9050 2150 9300 2150
-Wire Wire Line
-	9300 2150 9300 2400
-Wire Wire Line
-	9300 2150 9550 2150
-Wire Wire Line
-	9550 2150 9550 2400
-Connection ~ 9300 2150
-Wire Wire Line
-	9200 2100 9200 2200
-Wire Wire Line
-	9200 2200 9450 2200
-Wire Wire Line
-	9450 2200 9450 2400
-Connection ~ 9200 2200
-Wire Wire Line
-	9200 2200 9200 2400
-Wire Wire Line
-	9200 2200 8950 2200
-Wire Wire Line
-	8950 2200 8950 2400
-Wire Wire Line
-	8950 2200 8700 2200
-Wire Wire Line
-	8700 2200 8700 2400
-Connection ~ 8950 2200
-Wire Notes Line
-	8400 3350 9900 3350
-Wire Notes Line
-	9900 3350 9900 1750
-Wire Notes Line
-	9900 1750 8400 1750
-Wire Notes Line
-	8400 1750 8400 3350
-Text Notes 8450 1850 0    50   ~ 0
-Heater 1 - Parallel Wire connectors
 $Comp
 L Connector_Generic:Conn_01x02 J8
 U 1 1 62D35D53
-P 8800 4350
-F 0 "J8" H 8880 4342 50  0000 L CNN
-F 1 "Conn_01x02" H 8880 4251 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8800 4350 50  0001 C CNN
-F 3 "~" H 8800 4350 50  0001 C CNN
-F 4 "C225188" H 8800 4350 50  0001 C CNN "LCSC"
-	1    8800 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J9
-U 1 1 62D35D5A
-P 9050 4350
-F 0 "J9" H 9130 4342 50  0000 L CNN
-F 1 "Conn_01x02" H 9130 4251 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9050 4350 50  0001 C CNN
-F 3 "~" H 9050 4350 50  0001 C CNN
-F 4 "C225188" H 9050 4350 50  0001 C CNN "LCSC"
-	1    9050 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J10
-U 1 1 62D35D61
-P 9300 4350
-F 0 "J10" H 9380 4342 50  0000 L CNN
-F 1 "Conn_01x02" H 9380 4251 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9300 4350 50  0001 C CNN
-F 3 "~" H 9300 4350 50  0001 C CNN
-F 4 "C225188" H 9300 4350 50  0001 C CNN "LCSC"
-	1    9300 4350
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 J11
-U 1 1 62D35D68
-P 9550 4350
-F 0 "J11" H 9630 4342 50  0000 L CNN
-F 1 "Conn_01x02" H 9630 4251 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9550 4350 50  0001 C CNN
-F 3 "~" H 9550 4350 50  0001 C CNN
-F 4 "C225188" H 9550 4350 50  0001 C CNN "LCSC"
-	1    9550 4350
-	0    1    1    0   
-$EndComp
-Text Label 9050 3850 0    50   ~ 0
-10
-Text Label 9200 3850 0    50   ~ 0
-23
-Wire Wire Line
-	9050 3850 9050 3900
-Wire Wire Line
-	8800 4150 8800 3900
-Wire Wire Line
-	8800 3900 9050 3900
-Connection ~ 9050 3900
-Wire Wire Line
-	9050 3900 9050 4150
-Wire Wire Line
-	9050 3900 9300 3900
-Wire Wire Line
-	9300 3900 9300 4150
-Wire Wire Line
-	9300 3900 9550 3900
-Wire Wire Line
-	9550 3900 9550 4150
-Connection ~ 9300 3900
-Wire Wire Line
-	9200 3850 9200 3950
-Wire Wire Line
-	9200 3950 9450 3950
-Wire Wire Line
-	9450 3950 9450 4150
-Connection ~ 9200 3950
-Wire Wire Line
-	9200 3950 9200 4150
-Wire Wire Line
-	9200 3950 8950 3950
-Wire Wire Line
-	8950 3950 8950 4150
-Wire Wire Line
-	8950 3950 8700 3950
-Wire Wire Line
-	8700 3950 8700 4150
-Connection ~ 8950 3950
-Wire Notes Line
-	8400 5100 9900 5100
-Wire Notes Line
-	9900 5100 9900 3500
-Wire Notes Line
-	9900 3500 8400 3500
-Wire Notes Line
-	8400 3500 8400 5100
-Text Notes 8450 3600 0    50   ~ 0
-Heater 2 - Parallel Wire connectors
-$Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 62D15912
-P 9050 2600
-F 0 "J5" H 9130 2592 50  0000 L CNN
-F 1 "Conn_01x02" H 9130 2501 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 9050 2600 50  0001 C CNN
-F 3 "~" H 9050 2600 50  0001 C CNN
-F 4 "C225188" H 9050 2600 50  0001 C CNN "LCSC"
-	1    9050 2600
-	0    1    1    0   
+P 7950 3800
+F 0 "J8" H 8030 3792 50  0000 L CNN
+F 1 "Conn_01x02" H 8030 3701 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7950 3800 50  0001 C CNN
+F 3 "~" H 7950 3800 50  0001 C CNN
+F 4 "C225188" H 7950 3800 50  0001 C CNN "LCSC"
+	1    7950 3800
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 62CF3D63
-P 8800 2600
-F 0 "J4" H 8880 2592 50  0000 L CNN
-F 1 "Conn_01x02" H 8880 2501 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8800 2600 50  0001 C CNN
-F 3 "~" H 8800 2600 50  0001 C CNN
-F 4 "C225188" H 8800 2600 50  0001 C CNN "LCSC"
-	1    8800 2600
-	0    1    1    0   
+P 7950 3600
+F 0 "J4" H 8030 3592 50  0000 L CNN
+F 1 "Conn_01x02" H 8030 3501 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7950 3600 50  0001 C CNN
+F 3 "~" H 7950 3600 50  0001 C CNN
+F 4 "C225188" H 7950 3600 50  0001 C CNN "LCSC"
+	1    7950 3600
+	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7000 3600 7750 3600
+Wire Wire Line
+	7000 3700 7750 3700
+Wire Wire Line
+	7000 3800 7750 3800
+Wire Wire Line
+	7000 3900 7750 3900
 $EndSCHEMATC
