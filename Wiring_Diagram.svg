@@ -28,14 +28,14 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="2"
-     inkscape:cx="2454.75"
-     inkscape:cy="-393.75"
-     inkscape:window-width="2400"
-     inkscape:window-height="1421"
-     inkscape:window-x="-32000"
-     inkscape:window-y="-30500"
-     inkscape:window-maximized="0"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="2892.7738"
+     inkscape:cy="673.69599"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="1491"
+     inkscape:window-maximized="1"
      inkscape:current-layer="layer1" /><defs
      id="defs2"><rect
        x="1467.8277"
@@ -1641,18 +1641,18 @@
        id="rect37386-1"
        width="50.813946"
        height="6.3766522"
-       x="666.13672"
-       y="148.14417" /><text
+       x="653.08862"
+       y="148.6096" /><text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.72753px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.160369"
-       x="668.52795"
-       y="151.73103"
+       x="656.27362"
+       y="152.46106"
        id="text37411-74"><tspan
          sodipodi:role="line"
          id="tspan37409-2"
          style="font-size:2.72753px;fill:#ffffff;fill-opacity:1;stroke-width:0.160369"
-         x="668.52795"
-         y="151.73103">Board: HPHeater_0, Pin= 2 GPins</tspan></text><text
+         x="656.27362"
+         y="152.46106">Board: HPHeater_0, Pin= 2 GPins</tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.52778px;line-height:1.25;font-family:sans-serif;fill:#b7ffdb;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-opacity:0.9"
        x="364.54388"
@@ -1687,66 +1687,66 @@
        id="rect37386-2"
        width="50.813946"
        height="6.3766522"
-       x="761.18378"
-       y="187.43402" /><text
+       x="773.22528"
+       y="187.81483" /><text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.03059px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.160369"
-       x="763.95343"
-       y="191.58382"
+       x="774.27515"
+       y="192.22922"
        id="text37411-7"><tspan
          sodipodi:role="line"
          id="tspan37409-37"
          style="font-size:3.03059px;fill:#ffffff;fill-opacity:1;stroke-width:0.160369"
-         x="763.95343"
-         y="191.58382">Board: 4xHP_Heater, Pin= I2C 0</tspan></text><rect
+         x="774.27515"
+         y="192.22922">Board: 4xHP_Heater, Pin= I2C 0</tspan></text><rect
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.989786;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect37386-1-4"
        width="50.813946"
        height="6.3766522"
-       x="665.32306"
-       y="156.01532" /><text
+       x="653.02704"
+       y="155.64114" /><text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.72753px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.160369"
-       x="667.71436"
-       y="159.60217"
+       x="655.41833"
+       y="159.228"
        id="text37411-74-2"><tspan
          sodipodi:role="line"
          id="tspan37409-2-3"
          style="font-size:2.72753px;fill:#ffffff;fill-opacity:1;stroke-width:0.160369"
-         x="667.71436"
-         y="159.60217">Board: HPHeater_1, Pin= 2 GPins</tspan></text><rect
+         x="655.41833"
+         y="159.228">Board: HPHeater_1, Pin= 2 GPins</tspan></text><rect
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.989786;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect37386-1-48"
        width="50.813946"
        height="6.3766522"
-       x="665.32306"
-       y="162.8903" /><text
+       x="652.97064"
+       y="162.98109" /><text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.72753px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.160369"
-       x="667.85516"
-       y="167.04082"
+       x="655.50275"
+       y="167.13161"
        id="text37411-74-26"><tspan
          sodipodi:role="line"
          id="tspan37409-2-33"
          style="font-size:2.72753px;fill:#ffffff;fill-opacity:1;stroke-width:0.160369"
-         x="667.85516"
-         y="167.04082">Board: HPHeater_2, Pin= 2 GPins</tspan></text><rect
+         x="655.50275"
+         y="167.13161">Board: HPHeater_2, Pin= 2 GPins</tspan></text><rect
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.989786;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect37386-1-7"
        width="50.813946"
        height="6.3766522"
-       x="767.76697"
-       y="159.15031" /><text
+       x="779.74066"
+       y="159.3374" /><text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.72753px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.160369"
-       x="770.1582"
-       y="162.73717"
+       x="782.1319"
+       y="162.92426"
        id="text37411-74-0"><tspan
          sodipodi:role="line"
          id="tspan37409-2-6"
          style="font-size:2.72753px;fill:#ffffff;fill-opacity:1;stroke-width:0.160369"
-         x="770.1582"
-         y="162.73717">Board: HPHeater_3, Pin= 2 GPins</tspan></text><path
+         x="782.1319"
+         y="162.92426">Board: HPHeater_3, Pin= 2 GPins</tspan></text><path
        style="fill:none;fill-rule:evenodd;stroke:#7ac943;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="M 507.79168,348.1156 610.97449,142.46729"
        id="path39617"
@@ -1755,37 +1755,21 @@
        inkscape:connection-start="#rect4439-8-2-7-8-2"
        inkscape:connection-end="#rect4439-8-2-7-8-2-1-1" /><rect
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.24578;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect37386-1-7-8"
-       width="51.518475"
-       height="9.9635191"
-       x="664.64111"
-       y="170.00931" /><text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:2.72753px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.160369"
-       x="664.97418"
-       y="175.77104"
-       id="text37411-74-0-5"><tspan
-         sodipodi:role="line"
-         id="tspan37409-2-6-8"
-         style="font-size:2.72753px;fill:#ffffff;fill-opacity:1;stroke-width:0.160369"
-         x="664.97418"
-         y="175.77104">Board: LP_Heater Mux, Pin= 3 GPins</tspan></text><rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.24578;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect37386-1-7-8-4"
        width="51.518475"
        height="9.9635191"
-       x="766.50409"
-       y="166.69855" /><text
+       x="779.50677"
+       y="166.04373" /><text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.72753px;line-height:1.25;font-family:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.160369"
-       x="766.83716"
-       y="172.46028"
+       x="779.83984"
+       y="171.80547"
        id="text37411-74-0-5-7"><tspan
          sodipodi:role="line"
          id="tspan37409-2-6-8-7"
          style="font-size:2.72753px;fill:#ffffff;fill-opacity:1;stroke-width:0.160369"
-         x="766.83716"
-         y="172.46028">Board: LP_Heater Mux, Pin= 3 GPins</tspan></text><path
+         x="779.83984"
+         y="171.80547">Board: LP_Heater Mux, Pin= 2 GPins</tspan></text><path
        style="fill:none;fill-rule:evenodd;stroke:#7ac942;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:0.745098"
        d="m 524.90607,-248.26243 -200.41546,84.3733"
        id="path39858"
@@ -2196,14 +2180,7 @@
          id="tspan37409-37-0-5-5"
          style="font-size:3.03059px;fill:#ffffff;fill-opacity:1;stroke-width:0.160369"
          x="676.57019"
-         y="-73.879539">Board: Diode 4K  Pin= 2 Pins PIO UART</tspan></text><path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-       d="m 716.15959,174.15384 50.3445,-1.6363"
-       id="path54946"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0"
-       inkscape:connection-start="#rect37386-1-7-8"
-       inkscape:connection-end="#rect37386-1-7-8-4" /><text
+         y="-73.879539">Board: Diode 4K  Pin= 2 Pins PIO UART</tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.13825px;line-height:1.25;font-family:sans-serif;fill:#b7ffdb;fill-opacity:1;stroke:#000000;stroke-width:0.160369;stroke-opacity:0.9"
        x="664.53595"
