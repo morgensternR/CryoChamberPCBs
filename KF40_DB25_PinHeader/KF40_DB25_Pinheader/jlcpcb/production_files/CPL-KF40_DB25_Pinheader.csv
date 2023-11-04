@@ -1,0 +1,9 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,DB25_Plug,DB25-TH_FDB2501-M0DB300K6KA,-0.0035,61.2205,180.0,top
+J2,Conn_01x04_Socket,PinSocket_1x04_P2.54mm_Vertical,13.425,-0.66,0.0,bottom
+J3,Conn_01x04_Socket,PinSocket_1x04_P2.54mm_Vertical,8.825,-0.66,0.0,bottom
+J4,Conn_01x04_Socket,PinSocket_1x04_P2.54mm_Vertical,4.225,-0.66,0.0,bottom
+J5,Conn_01x04_Socket,PinSocket_1x04_P2.54mm_Vertical,-0.375,-0.66,0.0,bottom
+J6,Conn_01x04_Socket,PinSocket_1x04_P2.54mm_Vertical,-4.975,-0.66,0.0,bottom
+J7,Conn_01x02_Socket,PinSocket_1x02_P2.54mm_Vertical,-9.575,1.89,0.0,bottom
+J8,Conn_01x02_Socket,PinSocket_1x02_P2.54mm_Vertical,-14.175,1.89,0.0,bottom

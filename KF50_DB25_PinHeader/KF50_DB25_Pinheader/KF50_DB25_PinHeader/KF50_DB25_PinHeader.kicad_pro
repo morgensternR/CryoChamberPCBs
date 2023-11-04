@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 5.0,
+          "height": 10.0,
+          "width": 10.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -172,9 +172,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.1,
-        0.5
+        0.0
       ],
       "via_dimensions": [
         {
@@ -407,7 +405,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "KF40_DB25_Pinheader.kicad_pro",
+    "filename": "KF50_DB25_PinHeader.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -443,7 +441,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "KF40_DB25_Pinheader.step",
+      "step": "KF50_DB25_PinHeader.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -484,7 +482,7 @@
   },
   "sheets": [
     [
-      "8f4a8602-3d8b-4e58-83c2-83839762b477",
+      "09b7d1b5-5da3-47c9-b013-e32f4ba23ab2",
       ""
     ]
   ],
