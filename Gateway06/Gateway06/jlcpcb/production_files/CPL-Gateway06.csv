@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+H1,MountingHole,SMA_Hermetic,-10.0,10.0,0.0,top
+H2,MountingHole,SMA_Hermetic,-10.0,-10.0,0.0,top
+U1,LSHM-120-02.5-L-DV-A-S-TR,LSHM-120-02.5-L-DV-A-S-TR,9.0,5.0,180.0,bottom
+U2,LSHM-120-02.5-L-DV-A-S-TR,LSHM-120-02.5-L-DV-A-S-TR,9.0,-5.0,0.0,top

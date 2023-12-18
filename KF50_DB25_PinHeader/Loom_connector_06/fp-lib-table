@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name CryoLoomBreakout02)(type KiCad)(uri ${KIPRJMOD}/CryoLoomBreakout02.pretty)(options "")(descr ""))
+)
